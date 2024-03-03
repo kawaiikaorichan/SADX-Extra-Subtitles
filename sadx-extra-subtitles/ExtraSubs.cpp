@@ -640,7 +640,7 @@ std::map<int, SubtitleData> ExtraSubs
 
 	//Twinkle Park entrance
 
-	{ 1575, { "\aWelcome to Twinkle Park!", 150, Gameplay } },
+	{ 1575, { "\aWelcome to Twinkle Park!", 90, Gameplay } },
 
 	//Mystic Ruins
 
@@ -818,7 +818,7 @@ void DisplaySubtitle(int id)
 	{
 		DisplayHintText(SkyChase2Transformation, 270);
 	}
-	
+
 	if (!ExtraSubs.count(id)) return;
 	
 	if (ExtraSubs[id].Condition == Menu)
@@ -830,6 +830,15 @@ void DisplaySubtitle(int id)
 	}
 	else
 	{
+		if (CurrentCutsceneID == 20 && id == 1575) //cutscene after Twinkle Park (Sonic), doing this to prevent displaying this instead of a cutscene subtitle
+		{
+			ExtraSubs[1575].Duration = 30;
+		}
+		else
+		{
+			ExtraSubs[1575].Duration = 90;
+		}
+		
 		DisplayGameplaySubtitle(id);
 	}
 }
