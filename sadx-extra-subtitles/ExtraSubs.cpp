@@ -792,6 +792,7 @@ std::map<int, SubtitleData> ExtraSubs
 
 const char* SkyChase1EggCannon[] = { "\aTime for a little power play of my own!\nEgg Cannon ready... FIRE!", "\aAah, we're hit!\nYeah! Woaaaaaah!", NULL }; //id 187
 const char* SkyChase2Transformation[] = { "\aTransforming now!", "\aWoaaah!", "\aLet's do it!", NULL }; //id 2025
+const char* WelcomeToTwinkleParkCutscene[] = { "\aWelcome to Twinkle Park!", NULL }; //for cutscene after Twinkle Park (Sonic) to prevent this subtitle overriding a cutscene one
 
 
 void DisplayGameplaySubtitle(int id)
@@ -819,6 +820,12 @@ void DisplaySubtitle(int id)
 		DisplayHintText(SkyChase2Transformation, 270);
 	}
 
+	if (id == 1575 && CurrentCutsceneID == 20)
+	{
+		DisplayHintText(WelcomeToTwinkleParkCutscene, 30);
+		return;
+	}
+
 	if (!ExtraSubs.count(id)) return;
 	
 	if (ExtraSubs[id].Condition == Menu)
@@ -830,15 +837,6 @@ void DisplaySubtitle(int id)
 	}
 	else
 	{
-		if (CurrentCutsceneID == 20 && id == 1575) //cutscene after Twinkle Park (Sonic), doing this to prevent displaying this instead of a cutscene subtitle
-		{
-			ExtraSubs[1575].Duration = 30;
-		}
-		else
-		{
-			ExtraSubs[1575].Duration = 90;
-		}
-		
 		DisplayGameplaySubtitle(id);
 	}
 }
