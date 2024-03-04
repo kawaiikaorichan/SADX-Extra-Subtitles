@@ -735,6 +735,12 @@ std::map<int, SubtitleData> ExtraSubs
 	{ 821, { "\aYou're the best!", 20, Gameplay } },
 	{ 825, { "\aYou saved the day!", 20, Gameplay } },
 
+	//After Emerald Coast (Gamma)
+
+	{ 1223, { "\aThis frog's the one we want!", 20, Gameplay } },
+	{ 1224, { "\aNo, here's the real one!", 20, Gameplay } },
+	{ 1225, { "\aMy frog is the right one!", 20, Gameplay } },
+
 
 	/* Beta restores */
 
