@@ -233,10 +233,10 @@ std::map<int, SubtitleData> ExtraSubs
 	/* Common idle lines */
 
 	{ 390, { "\aBetter get going!", 60, Gameplay } }, //Sonic
-	{ 392, { "\aI’d better hurry!", 60, Gameplay } }, //Knuckles
+	{ 392, { "\aI'd better hurry!", 60, Gameplay } }, //Knuckles
 	{ 393, { "\aI'm so tired!", 90, Gameplay } }, //Amy
 	{ 394, { "\aCombat system activated.", 120, Gameplay } }, //Gamma
-	{ 395, { "\aHey, I'm kinda hungry.", 120, Gameplay } }, //Big
+	{ 395, { "\aHey, I'm kind of hungry.", 120, Gameplay } }, //Big
 
 
 	/* Adventure fields idle lines */
@@ -662,6 +662,7 @@ std::map<int, SubtitleData> ExtraSubs
 	{ 1843, { "\aHey, I'll play with you some other time!", 120, Gameplay } }, //boss clear
 	{ 1844, { "\aYeah, not bad!", 60, Gameplay } }, //normal clear
 	{ 1845, { "\aHey, let go!", 60, Gameplay } }, //captured
+	{ 1847, { "\aNo!", 60, Gameplay } }, //died with no rings
 
 	//Tails
 
@@ -699,7 +700,8 @@ std::map<int, SubtitleData> ExtraSubs
 	//Big
 
 	{ 1746, { "\aHmm!", 60, Gameplay } }, //Twinkle Circuit clear
-	{ 1747, { "\aFroggy!", 90, Gameplay } }, //stage clear
+	{ 1334, { "\aAw, now what am I gonna do?", 210, Gameplay } }, //stage clear (Twinkle Park, Icecap)
+	{ 1747, { "\aFroggy!", 90, Gameplay } }, //stage clear (Emerald Coast, Hot Shelter)	
 	{ 1748, { "\aMaybe next time.", 120, Gameplay } }, //bad clear
 	{ 1749, { "\aWhat a get!", 60, Gameplay } }, //good clear
 	{ 1750, { "\aFroggy! Are you okay?", 150, Gameplay } }, //boss clear
@@ -719,6 +721,19 @@ std::map<int, SubtitleData> ExtraSubs
 	{ 1777, { "\aRunning impossible.", 90, Gameplay } }, //captured
 	{ 1778, { "\aMission failed.", 90, Gameplay } }, //died
 	{ 1786, { "\aActivity ceased.", 90, Gameplay } }, //time over
+
+
+	/* Cutscene voices */
+
+	//Before Egg Walker
+	
+	{ 816, { "\aOh no! It's Robotnik!", 30, Gameplay } },
+	{ 818, { "\aLet's get out of here!", 30, Gameplay } },
+
+	//After Egg Walker
+
+	{ 821, { "\aYou're the best!", 20, Gameplay } },
+	{ 825, { "\aYou saved the day!", 20, Gameplay } },
 
 
 	/* Beta restores */
@@ -790,7 +805,7 @@ std::map<int, SubtitleData> ExtraSubs
 	{ 1716, { "\aIn order to stay as Super Sonic,\nyou'll need rings!", 180, Gameplay } },
 };
 
-const char* SkyChase1EggCannon[] = { "\aTime for a little power play of my own!\nEgg Cannon ready... FIRE!", "\aAah, we're hit!\nYeah! Woaaaaaah!", NULL }; //id 187
+const char* SkyChase1EggCannon[] = { "\aTime for a little power play of my own!\nEgg Cannon ready... FIRE!", "\a- Aah, we're hit!\n- Yeah! Woaaaaaah!", NULL }; //id 187
 const char* SkyChase2Transformation[] = { "\aTransforming now!", "\aWoaaah!", "\aLet's do it!", NULL }; //id 2025
 const char* WelcomeToTwinkleParkCutscene[] = { "\aWelcome to Twinkle Park!", NULL }; //for cutscene after Twinkle Park (Sonic) to prevent this subtitle overriding a cutscene one
 
