@@ -13,3 +13,9 @@ Subtitles will be displayed for the following:
 * some unused voices triggered by [Fixes, Adds and Beta Restores](https://gamebanana.com/mods/49976) (e.g. Tikal's cheers at the beginning of Perfect Chaos boss battle)
 
 Note that extra subtitles will only be displayed if the game's text language is set to ENGLISH.
+
+## Usage
+
+You need [SA Mod Manager](https://gamebanana.com/tools/15436) to play this mod.
+
+[Mod page on Gamebanana](https://gamebanana.com/mods/499212)
