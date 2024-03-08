@@ -714,8 +714,9 @@ std::map<int, SubtitleData> ExtraSubs_English
 
 	//After Egg Walker
 
-	{ 821, { "\aYou're the best!", 20, Gameplay } },
-	{ 825, { "\aYou saved the day!", 20, Gameplay } },
+	{ 821, { "\aYou're the best!", 20, Cutscene } },
+	{ 823, { "\aWe're forever grateful!", 20, Cutscene } },
+	{ 825, { "\aYou saved the day!", 20, Cutscene } },
 
 	//After Emerald Coast (Gamma)
 
@@ -743,8 +744,8 @@ std::map<int, SubtitleData> ExtraSubs_English
 
 	//Final Egg (Amy) Eggman's taunts
 
-	{ 1984, { "\aHa-ha-ha-ha-ha... Wrong way.", 150, Gameplay } },
-	{ 1985, { "\aHa-ha-ha-ha... Wrong again.", 120, Gameplay } },
+	{ 1984, { "\aHa-ha-ha-ha-ha! Wrong way.", 150, Gameplay } },
+	{ 1985, { "\aHa-ha-ha-ha! Wrong again.", 120, Gameplay } },
 	{ 1986, { "\aWho-ha-ha! Why don't you give up?", 150, Gameplay } },
 
 	//Sky Deck (probably) unused lines
@@ -769,7 +770,7 @@ std::map<int, SubtitleData> ExtraSubs_English
 	{ 1740, { "\aOh no!", 60, Gameplay } }, //Amy
 	{ 1755, { "\aOof!", 60, Gameplay } }, //Big
 
-	//Icecap (Tails) alternate snowboarding voices
+	//Tails' stages alternate Sonic voices
 
 	{ 1823, { "\aYou made it!", 60, Gameplay } },
 	{ 1824, { "\aYou got it!", 60, Gameplay } },

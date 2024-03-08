@@ -4,14 +4,12 @@
 
 
 bool DisableMenuExtraSubs;
+std::string EnglishSubtitlesMode;
 
 bool MenuExtraSubsDisabled()
 {
 	return DisableMenuExtraSubs;
 }
-
-
-std::string EnglishSubtitlesMode;
 
 bool UseRetranslatedSubtitles()
 {

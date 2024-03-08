@@ -68,6 +68,35 @@ void SetUpMenuSubtitle(int id)
 	SubtitleDuration = ExtraSubs[TextLanguage]->at(id).Duration;
 }
 
+void DisplayCutsceneSubtitle(int id) //for post-Egg Walker cutscene specifically
+{
+	if (VoiceLanguage == Languages_English && (id == 822 || id == 824)) return;
+	
+	EV_Msg(ExtraSubs[TextLanguage]->at(id).Text);
+
+	if (id == 823)
+	{
+		EV_Wait(ExtraSubs[TextLanguage]->at(id).Duration);
+		EV_MsgClose();
+	}
+}
+
+void SetUpSkyChase1Subtitles()
+{
+	if (SkyChase1[TextLanguage] != NULL)
+	{
+		EggCannonFrameCount = 1;
+	}
+}
+
+void DisplaySkyChase2Subtitles()
+{
+	if (SkyChase2[TextLanguage] != NULL)
+	{
+		DisplayHintText(SkyChase2[TextLanguage], 270);
+	}
+}
+
 void SetEnglishSubtitlesMode()
 {
 	if (UseRetranslatedSubtitles())
@@ -87,18 +116,18 @@ void SetEnglishSubtitlesMode()
 
 void DisplaySubtitle(int id)
 {
-	SetEnglishSubtitlesMode();
+	if (TextLanguage == Languages_English)
+	{
+		SetEnglishSubtitlesMode();
+	}	
 	
 	if (id == 187) //Sky Chase 1 Egg Cannon sequence
 	{
-		EggCannonFrameCount = 1;
+		SetUpSkyChase1Subtitles();
 	}
-	else if (id == 2025) //Sky Chase 2 Tornado transformation sequence
+	if (id == 2025) //Sky Chase 2 Tornado transformation sequence
 	{
-		if (SkyChase2[TextLanguage] != NULL)
-		{
-			DisplayHintText(SkyChase2[TextLanguage], 270);
-		}		
+		DisplaySkyChase2Subtitles();
 	}
 
 	if (id == 1575 && CurrentCutsceneID == 20) //for cutscene after Twinkle Park (Sonic) to prevent this subtitle overriding a cutscene one
@@ -119,6 +148,10 @@ void DisplaySubtitle(int id)
 		{
 			SetUpMenuSubtitle(id);
 		}		
+	}
+	else if (ExtraSubs[TextLanguage]->at(id).Condition == Cutscene)
+	{
+		DisplayCutsceneSubtitle(id);
 	}
 	else
 	{
@@ -163,12 +196,6 @@ void ClearSubtitle()
 
 void DisplayEggCannonSubtitles()
 {
-	if (SkyChase1[TextLanguage] == NULL)
-	{
-		EggCannonFrameCount = 0;
-		return;
-	}
-	
 	sub_40BC80();
 	if (EggCannonFrameCount <= 180)
 	{

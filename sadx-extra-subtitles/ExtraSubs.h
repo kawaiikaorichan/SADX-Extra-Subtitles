@@ -3,7 +3,8 @@
 enum DisplayConditions
 {
 	Menu,
-	Gameplay
+	Gameplay,
+	Cutscene
 };
 
 struct SubtitleData
