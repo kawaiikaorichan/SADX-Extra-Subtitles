@@ -535,7 +535,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 530, { "\aBien, on a réussi à passer la\npremière ligne de défense !", 180, Gameplay } },
 	{ 531, { "\aIl y en a d'autres qui viennent !", 90, Gameplay } },
 	{ 532, { "\aOui, je sais !", 90, Gameplay } },
-	{ 533, { "\aSystem mode: change !", 120, Gameplay } },
+	{ 533, { "\aSystem mode : change !", 120, Gameplay } },
 	{ 534, { "\aWooooah !", 90, Gameplay } },
 	{ 535, { "\aTrès bien ! On y va !", 120, Gameplay } },
 
