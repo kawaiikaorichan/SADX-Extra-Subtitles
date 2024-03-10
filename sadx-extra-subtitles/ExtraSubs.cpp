@@ -1,9 +1,11 @@
-﻿#include "pch.h"
+#include "pch.h"
 
 #include "Config.h"
 #include "ExtraSubs.h"
 #include "ExtraSubs_English.h"
 #include "ExtraSubs_Retranslated.h"
+#include "ExtraSubs_French.h"
+#include "ExtraSubs_FRetranslated.h"
 
 #include <map>
 
@@ -21,7 +23,7 @@ const char** SkyChase1[]
 {
 	NULL, //Japanese
 	SkyChase1_English,
-	NULL, //French
+	SkyChase1_French,
 	NULL, //Spanish
 	NULL, //German
 };
@@ -30,7 +32,7 @@ const char** SkyChase2[]
 {
 	NULL, //Japanese
 	SkyChase2_English,
-	NULL, //French
+	SkyChase2_French,
 	NULL, //Spanish
 	NULL, //German
 };
@@ -39,7 +41,7 @@ const char** WelcomeToTwinkleParkCutscene[]
 {
 	NULL, //Japanese
 	WelcomeToTwinklePark_English,
-	NULL, //French
+	WelcomeToTwinklePark_French,
 	NULL, //Spanish
 	NULL, //German
 };
@@ -49,7 +51,7 @@ std::map<int, SubtitleData>* ExtraSubs[]
 {
 	NULL, //Japanese
 	&ExtraSubs_English,
-	NULL, //French
+	&ExtraSubs_French,
 	NULL, //Spanish
 	NULL, //German
 };
@@ -70,7 +72,7 @@ void SetUpMenuSubtitle(int id)
 
 void DisplayCutsceneSubtitle(int id) //for post-Egg Walker cutscene specifically
 {
-	if (VoiceLanguage == Languages_English && (id == 822 || id == 824)) return;
+	if (VoiceLanguage == Languages_English || VoiceLanguage == Languages_French && (id == 822 || id == 824)) return;
 	
 	EV_Msg(ExtraSubs[TextLanguage]->at(id).Text);
 
@@ -113,6 +115,22 @@ void SetEnglishSubtitlesMode()
 	}
 }
 
+void SetFrenchSubtitlesMode()
+{
+	if (UseRetranslatedSubtitles())
+	{
+		ExtraSubs[Languages_French] = &ExtraSubs_FrenchRetranslated;
+		SkyChase1[Languages_French] = SkyChase1_FrenchRetranslated;
+		SkyChase2[Languages_French] = SkyChase2_FrenchRetranslated;
+	}
+	else
+	{
+		ExtraSubs[Languages_French] = &ExtraSubs_French;
+		SkyChase1[Languages_French] = SkyChase1_French;
+		SkyChase2[Languages_French] = SkyChase2_French;
+	}
+}
+
 
 void DisplaySubtitle(int id)
 {
@@ -121,6 +139,11 @@ void DisplaySubtitle(int id)
 		SetEnglishSubtitlesMode();
 	}	
 	
+	if (TextLanguage == Languages_French)
+	{
+		SetFrenchSubtitlesMode();
+	}
+
 	if (id == 187) //Sky Chase 1 Egg Cannon sequence
 	{
 		SetUpSkyChase1Subtitles();
