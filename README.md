@@ -12,7 +12,9 @@ Subtitles will be displayed for the following:
 * boss battle voices
 * some unused voices triggered by [Fixes, Adds and Beta Restores](https://gamebanana.com/mods/49976) (e.g. Tikal's cheers at the beginning of Perfect Chaos boss battle)
 
-Currently supported languages: English (2 sets: matching English dub and retranslated from Japanese by me).
+Currently supported languages:
+* English (2 sets: matching English dub and retranslated from Japanese by me)
+* French (2 sets, translated by Kesnos)
 
 ## Usage
 
