@@ -250,13 +250,13 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 300, { "\aCes endroits ne sont pas trop mon truc.", 150, Gameplay } }, //Sonic
 	{ 301, { "\aJe ne pense pas pouvoir aller\nau parc d'attraction.", 120, Gameplay } }, //Tails
 	{ 302, { "\aQuel est cet endroit ?", 90, Gameplay } }, //Knuckles
-	{ 303, { "\aJ'ai le cur qui bat la chamade !", 120, Gameplay } }, //Amy
+	{ 303, { "\aJ'ai le cœur qui bat la chamade !", 120, Gameplay } }, //Amy
 	{ 304, { "\aTwinkle Park ?", 150, Gameplay } }, //Big
 	{ 305, { "\aCircuit de karts détecté.", 150, Gameplay } }, //Gamma
 
 	//Station Square - hotel
 
-	{ 294, { "\aHey-hey ! C'est pas le moment de se reposer !", 180, Gameplay } }, //Sonic
+	{ 294, { "\aHey hey ! C'est pas le moment de se reposer !", 180, Gameplay } }, //Sonic
 	{ 295, { "\aCet hôtel... Je suis un peu jaloux.", 180, Gameplay } }, //Tails
 	{ 296, { "\aHm, un hôtel de vacances ?", 120, Gameplay } }, //Knuckles
 	{ 297, { "\aJ'adorerais rester à un hôtel comme celui-ci !", 210, Gameplay } }, //Amy
@@ -347,7 +347,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Windy Valley
 
-	{ 231, { "\aJe peux entendre le vent de loin.", 120, Gameplay } }, //Sonic
+	{ 231, { "\aJe peux entendre le vent au loin.", 120, Gameplay } }, //Sonic
 	{ 232, { "\aPrésence d'E-103 confirmée.", 240, Gameplay } }, //Gamma
 	{ 233, { "\aMieux vaut sortir d'ici rapidement !", 120, Gameplay } }, //Sonic
 	{ 234, { "\aJ'ai atterri assez haut !", 150, Gameplay } }, //Sonic
@@ -357,7 +357,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	{ 236, { "\aHein... Des flippers ?", 150, Gameplay } }, //Sonic
 	{ 237, { "\aQue c'est éclairé ici !", 90, Gameplay } }, //Knuckles
-	{ 238, { "\aQuel horrible odeur...\nC'est un vide-ordures ?", 210, Gameplay } }, //Sonic
+	{ 238, { "\aQuelle horrible odeur...\nC'est un vide-ordures ?", 210, Gameplay } }, //Sonic
 
 	//Icecap
 
@@ -378,7 +378,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	{ 248, { "\aOK... À fond les bananes !", 180, Gameplay } }, //Sonic
 	{ 249, { "\aOù est Eggman ?", 90, Gameplay } }, //Tails
-	{ 250, { "\aHey-hey, c'est pas le moment de faire joujou !", 120, Gameplay } }, //Sonic
+	{ 250, { "\aHey hey, c'est pas le moment de faire joujou !", 120, Gameplay } }, //Sonic
 	{ 251, { "\aLes voitures ne semblent pas bouger !", 120, Gameplay } }, //Sonic
 	{ 252, { "\aLes pièces de l'Émeraude doivent\nêtre quelque part dans cette ville.", 180, Gameplay } }, //Knuckles
 
@@ -434,7 +434,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Tails
 
 	{ 375, { "\aJe ne vais pas perdre !", 60, Gameplay } }, //Egg Hornet	
-	{ 376, { "\aA-attends !", 90, Gameplay } }, //vs Knuckles
+	{ 376, { "\aA-Attends !", 90, Gameplay } }, //vs Knuckles
 	{ 377, { "\aSale monstre liquide !", 90, Gameplay } }, //Chaos 4
 	{ 378, { "\aIl y a quelque chose de différent chez ce robot.", 150, Gameplay } }, //vs Gamma
 	{ 379, { "\aJe peux le faire par mes propres moyens !", 120, Gameplay } }, //Egg Walker
@@ -459,7 +459,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Super Sonic
 
 	{ 388, { "\aJe te montrerai le\nvrai pouvoir des Émeraudes !", 210, Gameplay } },
-	{ 389, { "\aEst-ce que c'est son cur ?", 90, Gameplay } },
+	{ 389, { "\aEst-ce que c'est son cœur ?", 90, Gameplay } },
 
 
 	/* Chao Garden idle lines */
@@ -567,7 +567,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 222, { "\aAdieux, Tails !", 120, Gameplay } },
 	{ 223, { "\aJe vais détruire cette ville toute entière !", 150, Gameplay } },
 	{ 224, { "\aIl te manque 100 ans\npour pouvoir me battre !", 180, Gameplay } },
-	{ 225, { "\aLa victoire me revient !\nWha-ha-ha-ha-ha-ha-ha-ha !", 210, Gameplay } },
+	{ 225, { "\aLa victoire me revient !\nWhahahahahahahaha !", 210, Gameplay } },
 	{ 226, { "\aMaintenant, rends-toi, Tails !", 180, Gameplay } },
 
 	//Final Egg
@@ -738,9 +738,9 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Final Egg (Amy) Eggman's taunts
 
-	{ 1984, { "\aHa-ha-ha-ha-ha ! Mauvais chemin !", 150, Gameplay } },
-	{ 1985, { "\aHa-ha-ha-ha ! Toujours le mauvais chemin !", 180, Gameplay } },
-	{ 1986, { "\aHa-ha-ha-ha-ha-ha ! Abandonne !", 210, Gameplay } },
+	{ 1984, { "\aHa ha ha ha ha ! Mauvais chemin !", 150, Gameplay } },
+	{ 1985, { "\aHa ha ha ha ! Toujours le mauvais chemin !", 180, Gameplay } },
+	{ 1986, { "\aHa ha ha ha ha ha ! Abandonne !", 210, Gameplay } },
 
 	//Sky Deck (probably) unused lines
 
@@ -755,7 +755,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//vs E-101 mk.2 unused line
 
-	{ 1681, { "\aStop it, Beta.", 90, Gameplay } },
+	{ 1681, { "\aArrête, Beta.", 90, Gameplay } },
 
 	//characters taking damage with no rings
 
