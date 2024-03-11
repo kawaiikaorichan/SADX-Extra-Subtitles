@@ -348,7 +348,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Windy Valley
 
-	{ 231, { "\aJe peux entendre le vent de loin.", 120, Gameplay } }, //Sonic
+	{ 231, { "\aJe peux entendre le vent au loin.", 120, Gameplay } }, //Sonic
 	{ 232, { "\aE-103 détecté.", 120, Gameplay } }, //Gamma
 	{ 233, { "\aJe ferais mieux de me tirer d'ici !", 90, Gameplay } }, //Sonic
 	{ 234, { "\aWoah, c'est sacrément haut !", 90, Gameplay } }, //Sonic
@@ -379,7 +379,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	{ 248, { "\aC'est l'heure d'y aller en vitesse supersonique !", 120, Gameplay } }, //Sonic
 	{ 249, { "\aOù est Robotnik ?", 60, Gameplay } }, //Tails
-	{ 250, { "\aHé, c'est pas le moment pour se reposer !", 120, Gameplay } }, //Sonic
+	{ 250, { "\aHé, c'est pas le moment de se reposer !", 120, Gameplay } }, //Sonic
 	{ 251, { "\aLes voitures sont si lentes !\nOn croirait qu'elles ne bougent pas.", 150, Gameplay } }, //Sonic
 	{ 252, { "\aLes pièces de l'Émeraude Mère\ndoivent se trouver quelque part en ville.", 210, Gameplay } }, //Knuckles
 
@@ -392,7 +392,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Sky Deck
 
-	{ 257, { "\aHo-Ho !\nIl vaut vraiment mieux pas que je tombe d'ici !", 180, Gameplay } }, //Sonic
+	{ 257, { "\aHo ho !\nIl vaut vraiment mieux pas que je tombe d'ici !", 180, Gameplay } }, //Sonic
 	{ 258, { "\aC'est sacrément haut !\nMes jambes en tremblent !", 180, Gameplay } }, //Tails
 	{ 259, { "\aZut ! Je déteste ce vent !", 120, Gameplay } }, //Sonic
 	{ 260, { "\aHé, qu'est-ce qui va pas avec ce vaisseau ?", 90, Gameplay } }, //Sonic
@@ -435,7 +435,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	//Tails
 
 	{ 375, { "\aAllez, Tails ! Tu peux le faire !", 120, Gameplay } }, //Egg Hornet	
-	{ 376, { "\aH-hé, attends une minute !", 120, Gameplay } }, //vs Knuckles
+	{ 376, { "\aH-Hé, attends une minute !", 120, Gameplay } }, //vs Knuckles
 	{ 377, { "\aSale monstre liquide !", 120, Gameplay } }, //Chaos 4
 	{ 378, { "\aCe robot semble différent.", 150, Gameplay } }, //vs Gamma
 	{ 379, { "\aJe sais que je peux m'en occuper moi-même !", 150, Gameplay } }, //Egg Walker
@@ -460,7 +460,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	//Super Sonic
 
 	{ 388, { "\aJe vais te montrer de quoi sont\nréellement capables les Émeraudes du Chaos !", 180, Gameplay } },
-	{ 389, { "\aDonc, voici son cur !", 90, Gameplay } },
+	{ 389, { "\aDonc, voici son cœur !", 90, Gameplay } },
 
 
 	/* Chao Garden idle lines */
@@ -564,7 +564,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 218, { "\aQuoi ? Il a rattrapé son retard !", 120, Gameplay } },
 	{ 219, { "\aSale petit renard !", 120, Gameplay } },
 	{ 220, { "\aTails ! Attends-moi !", 120, Gameplay } },
-	{ 221, { "\aWha-ha-ha-ha-ha-ha-ha-ha-ha !", 120, Gameplay } },
+	{ 221, { "\aWhahahahahahahahaha !", 120, Gameplay } },
 	{ 222, { "\aAdieu, Tails !", 90, Gameplay } },
 	{ 223, { "\aJ'emporterai leur ville toute entière avec moi !", 150, Gameplay } },
 	{ 224, { "\aTu ne me battras jamais !", 120, Gameplay } },
@@ -670,9 +670,9 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Amy
 
-	{ 1731, { "\aBien !", 60, Gameplay } }, //Twinkle Circuit clear
+	{ 1731, { "\aGénial !", 60, Gameplay } }, //Twinkle Circuit clear
 	{ 1732, { "\aOuééé !", 60, Gameplay } }, //Twinkle Circuit jump
-	{ 1733, { "\aBien !", 90, Gameplay } }, //niveau clear
+	{ 1733, { "\aGénial !", 90, Gameplay } }, //niveau clear
 	{ 1734, { "\a*pfiou* C'est pas passé loin !", 150, Gameplay } }, //bad clear
 	{ 1735, { "\aTu vois ? Je peux le faire !", 120, Gameplay } }, //boss clear
 	{ 1736, { "\aJe suis libre !", 90, Gameplay } }, //normal clear
@@ -744,9 +744,9 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Final Egg (Amy) Eggman's taunts
 
-	{ 1984, { "\aHa-ha-ha-ha-ha ! Mauvais chemin.", 150, Gameplay } },
-	{ 1985, { "\aHa-ha-ha-ha ! Toujours pas le bon chemin.", 120, Gameplay } },
-	{ 1986, { "\aWho-ha-ha ! Pourquoi n'abandonnerais-tu pas ?", 150, Gameplay } },
+	{ 1984, { "\aHa ha ha ha ha ! Mauvais chemin.", 150, Gameplay } },
+	{ 1985, { "\aHa ha ha ha ! Toujours pas le bon chemin.", 120, Gameplay } },
+	{ 1986, { "\aWhohaha ! Pourquoi n'abandonnerais-tu pas ?", 150, Gameplay } },
 
 	//Sky Deck (probably) unused lines
 
