@@ -4,7 +4,7 @@
 
 
 bool DisableMenuExtraSubs;
-std::string EnglishSubtitlesMode;
+std::string SubtitlesMode;
 
 bool MenuExtraSubsDisabled()
 {
@@ -13,7 +13,7 @@ bool MenuExtraSubsDisabled()
 
 bool UseRetranslatedSubtitles()
 {
-	return EnglishSubtitlesMode == "AlwaysRetranslated" || EnglishSubtitlesMode == "Auto" && VoiceLanguage == Languages_Japanese;
+	return SubtitlesMode == "AlwaysRetranslated" || SubtitlesMode == "Auto" && VoiceLanguage == Languages_Japanese;
 }
 
 
@@ -22,5 +22,5 @@ void ReadConfig(const char* modPath)
 	IniFile config(std::string(modPath) + "\\config.ini");
 
 	DisableMenuExtraSubs = config.getBool("Options", "DisableMenuExtraSubs", false);
-	EnglishSubtitlesMode = config.getString("Options", "EnglishSubtitlesMode", "Auto");
+	SubtitlesMode = config.getString("Options", "SubtitlesMode", "Auto");
 }

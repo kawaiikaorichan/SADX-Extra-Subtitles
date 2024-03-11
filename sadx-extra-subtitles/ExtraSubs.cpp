@@ -72,7 +72,7 @@ void SetUpMenuSubtitle(int id)
 
 void DisplayCutsceneSubtitle(int id) //for post-Egg Walker cutscene specifically
 {
-	if (VoiceLanguage == Languages_English || VoiceLanguage == Languages_French && (id == 822 || id == 824)) return;
+	if (VoiceLanguage == Languages_English && (id == 822 || id == 824)) return; //voice language can only be English or Japanese
 	
 	EV_Msg(ExtraSubs[TextLanguage]->at(id).Text);
 
@@ -99,32 +99,24 @@ void DisplaySkyChase2Subtitles()
 	}
 }
 
-void SetEnglishSubtitlesMode()
+void SetSubtitlesMode() //this will be a single option for multiple languages
 {
 	if (UseRetranslatedSubtitles())
 	{
 		ExtraSubs[Languages_English] = &ExtraSubs_EnglishRetranslated;
 		SkyChase1[Languages_English] = SkyChase1_EnglishRetranslated;
 		SkyChase2[Languages_English] = SkyChase2_EnglishRetranslated;
-	}
-	else
-	{
-		ExtraSubs[Languages_English] = &ExtraSubs_English;
-		SkyChase1[Languages_English] = SkyChase1_English;
-		SkyChase2[Languages_English] = SkyChase2_English;
-	}
-}
 
-void SetFrenchSubtitlesMode()
-{
-	if (UseRetranslatedSubtitles())
-	{
 		ExtraSubs[Languages_French] = &ExtraSubs_FrenchRetranslated;
 		SkyChase1[Languages_French] = SkyChase1_FrenchRetranslated;
 		SkyChase2[Languages_French] = SkyChase2_FrenchRetranslated;
 	}
 	else
 	{
+		ExtraSubs[Languages_English] = &ExtraSubs_English;
+		SkyChase1[Languages_English] = SkyChase1_English;
+		SkyChase2[Languages_English] = SkyChase2_English;
+
 		ExtraSubs[Languages_French] = &ExtraSubs_French;
 		SkyChase1[Languages_French] = SkyChase1_French;
 		SkyChase2[Languages_French] = SkyChase2_French;
@@ -134,15 +126,7 @@ void SetFrenchSubtitlesMode()
 
 void DisplaySubtitle(int id)
 {
-	if (TextLanguage == Languages_English)
-	{
-		SetEnglishSubtitlesMode();
-	}	
-	
-	if (TextLanguage == Languages_French)
-	{
-		SetFrenchSubtitlesMode();
-	}
+	SetSubtitlesMode();
 
 	if (id == 187) //Sky Chase 1 Egg Cannon sequence
 	{

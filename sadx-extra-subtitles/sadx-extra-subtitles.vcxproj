@@ -143,6 +143,8 @@
     <ClInclude Include="Config.h" />
     <ClInclude Include="ExtraSubs.h" />
     <ClInclude Include="ExtraSubs_English.h" />
+    <ClInclude Include="ExtraSubs_French.h" />
+    <ClInclude Include="ExtraSubs_FRetranslated.h" />
     <ClInclude Include="ExtraSubs_Retranslated.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="include\IniFile.h" />

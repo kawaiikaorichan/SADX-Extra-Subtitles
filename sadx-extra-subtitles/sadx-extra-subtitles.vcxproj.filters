@@ -36,6 +36,12 @@
     <ClInclude Include="ExtraSubs_Retranslated.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ExtraSubs_French.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraSubs_FRetranslated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
