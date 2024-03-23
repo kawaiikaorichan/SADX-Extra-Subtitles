@@ -723,18 +723,18 @@ std::map<int, SubtitleData> ExtraSubs_EnglishRetranslated
 
 	//Big's unused fishing lines
 
-	{ 1763, { "\aIt's small...", 90, Menu } }, //small fish
-	{ 1761, { "\aThis one is fine.", 120, Menu } }, //medium-sized fish
-	{ 1745, { "\aA big one!", 150, Menu } }, //large fish
-	{ 1753, { "\aNo good.", 90, Menu } }, //failed attempt
-	{ 1756, { "\aNo good.", 90, Menu } }, //failed attempt
-	{ 1876, { "\aOkay! One more time!", 210, Menu } }, //try again
-	{ 1877, { "\aAlmost got it!\nOkay, once more.", 210, Menu } }, //try again
+	{ 1763, { "\aIt's small...", 90, Gameplay } }, //small fish
+	{ 1761, { "\aThis one is fine.", 120, Gameplay } }, //medium-sized fish
+	{ 1745, { "\aA big one!", 150, Gameplay } }, //large fish
+	{ 1753, { "\aNo good.", 90, Gameplay } }, //failed attempt
+	{ 1756, { "\aNo good.", 90, Gameplay } }, //failed attempt
+	{ 1876, { "\aOkay! One more time!", 210, Gameplay } }, //try again
+	{ 1877, { "\aAlmost got it!\nOkay, once more.", 210, Gameplay } }, //try again
 
 	//Final Egg 1 (Sonic) intercom
 
-	{ 1706, { "\aIntruder alert! Intruder alert!\nEgg Keepers, report to battle stations!", 360, Menu } },
-	{ 1707, { "\aIntruder alert! Intruder alert!\nEgg Keepers, report to battle stations!", 360, Menu } },
+	{ 1706, { "\aIntruder alert! Intruder alert!\nEgg Keepers, report to battle stations!", 360, Gameplay } },
+	{ 1707, { "\aIntruder alert! Intruder alert!\nEgg Keepers, report to battle stations!", 360, Gameplay } },
 
 	//Final Egg (Amy) Eggman's taunts
 

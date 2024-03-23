@@ -729,18 +729,18 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Big's unused fishing lines
 
-	{ 1763, { "\aMince, il est petit.", 90, Menu } }, //small fish
-	{ 1761, { "\aBah. Il est pas si mal.", 120, Menu } }, //medium-sized fish
-	{ 1745, { "\aWoah, il est énorme !", 120, Menu } }, //large fish
-	{ 1753, { "\aOh non.", 60, Menu } }, //failed attempt
-	{ 1756, { "\aOh non !", 90, Menu } }, //failed attempt
-	{ 1876, { "\aBien ! On recommence !", 120, Menu } }, //try again
-	{ 1877, { "\aJ'y étais presque !\nBien, on recommence.", 180, Menu } }, //try again
+	{ 1763, { "\aMince, il est petit.", 90, Gameplay } }, //small fish
+	{ 1761, { "\aBah. Il est pas si mal.", 120, Gameplay } }, //medium-sized fish
+	{ 1745, { "\aWoah, il est énorme !", 120, Gameplay } }, //large fish
+	{ 1753, { "\aOh non.", 60, Gameplay } }, //failed attempt
+	{ 1756, { "\aOh non !", 90, Gameplay } }, //failed attempt
+	{ 1876, { "\aBien ! On recommence !", 120, Gameplay } }, //try again
+	{ 1877, { "\aJ'y étais presque !\nBien, on recommence.", 180, Gameplay } }, //try again
 
 	//Final Egg 1 (Sonic) intercom
 
-	{ 1706, { "\aAlerte intrusion ! Alerte intrusion !\nEgg Keepers, veuillez-vous rendre au lieu de combat !", 360, Menu } },
-	{ 1707, { "\aAlerte intrusion ! Alerte intrusion !\nEgg Keepers, veuillez-vous rendre au lieu de combat !", 360, Menu } },
+	{ 1706, { "\aAlerte intrusion ! Alerte intrusion !\nEgg Keepers, veuillez-vous rendre au lieu de combat !", 360, Gameplay } },
+	{ 1707, { "\aAlerte intrusion ! Alerte intrusion !\nEgg Keepers, veuillez-vous rendre au lieu de combat !", 360, Gameplay } },
 
 	//Final Egg (Amy) Eggman's taunts
 
