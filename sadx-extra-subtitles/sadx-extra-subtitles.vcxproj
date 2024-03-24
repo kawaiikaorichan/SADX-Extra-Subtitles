@@ -145,6 +145,7 @@
     <ClInclude Include="ExtraSubs_English.h" />
     <ClInclude Include="ExtraSubs_French.h" />
     <ClInclude Include="ExtraSubs_FRetranslated.h" />
+    <ClInclude Include="ExtraSubs_Japanese.h" />
     <ClInclude Include="ExtraSubs_Retranslated.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="include\IniFile.h" />
@@ -155,6 +156,7 @@
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="ExtraSubs.cpp" />
     <ClCompile Include="include\IniFile.cpp" />
+    <ClCompile Include="include\TextConv.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -1,4 +1,4 @@
-#include "pch.h"
+﻿#include "pch.h"
 
 #include "Config.h"
 #include "ExtraSubs.h"
@@ -6,12 +6,15 @@
 #include "ExtraSubs_Retranslated.h"
 #include "ExtraSubs_French.h"
 #include "ExtraSubs_FRetranslated.h"
+#include "ExtraSubs_Japanese.h"
+#include "include/TextConv.hpp"
 
 #include <map>
 
 
 FunctionPointer(void, sub_40BC80, (), 0x40BC80);
 
+const int ShiftJIS = 932;
 const char* Buffer[] = { NULL, NULL };
 const char* TextBuffer = NULL;
 int SubtitleDisplayFrameCount = 0;
@@ -19,9 +22,34 @@ int SubtitleDuration = 0;
 int EggCannonFrameCount = 0;
 
 
+const char* UTF16toSJIS(const wchar_t* text)
+{
+	return UTF16toMBS(text, ShiftJIS);
+}
+
+std::map<int, SubtitleData> ConvertJapaneseExtraSubs()
+{
+	std::map<int, SubtitleData> extraSubs_Japanese;
+
+	for (auto& entry : ExtraSubs_Japanese_UTF16)
+	{
+		int id = entry.first;
+		const char* text = UTF16toSJIS(entry.second.Text);
+		int duration = entry.second.Duration;
+		DisplayConditions condition = entry.second.Condition;
+
+		extraSubs_Japanese.insert({ id, { text, duration, condition } });
+	}
+
+	return extraSubs_Japanese;
+}
+
+std::map<int, SubtitleData> ExtraSubs_Japanese = ConvertJapaneseExtraSubs();
+
+
 const char** SkyChase1[]
 {
-	NULL, //Japanese
+	SkyChase1_Japanese,
 	SkyChase1_English,
 	SkyChase1_French,
 	NULL, //Spanish
@@ -30,7 +58,7 @@ const char** SkyChase1[]
 
 const char** SkyChase2[]
 {
-	NULL, //Japanese
+	SkyChase2_Japanese,
 	SkyChase2_English,
 	SkyChase2_French,
 	NULL, //Spanish
@@ -39,7 +67,7 @@ const char** SkyChase2[]
 
 const char** WelcomeToTwinkleParkCutscene[]
 {
-	NULL, //Japanese
+	WelcomeToTwinklePark_Japanese,
 	WelcomeToTwinklePark_English,
 	WelcomeToTwinklePark_French,
 	NULL, //Spanish
@@ -49,7 +77,7 @@ const char** WelcomeToTwinkleParkCutscene[]
 
 std::map<int, SubtitleData>* ExtraSubs[]
 {
-	NULL, //Japanese
+	&ExtraSubs_Japanese,
 	&ExtraSubs_English,
 	&ExtraSubs_French,
 	NULL, //Spanish
@@ -101,6 +129,8 @@ void DisplaySkyChase2Subtitles()
 
 void SetSubtitlesMode() //this will be a single option for multiple languages
 {
+	if (TextLanguage == Languages_Japanese) return; //this obviously doesn't have a retranslated version
+	
 	if (UseRetranslatedSubtitles())
 	{
 		ExtraSubs[Languages_English] = &ExtraSubs_EnglishRetranslated;
@@ -181,7 +211,8 @@ void __cdecl PlayVoice_ExtraSub(int id)
 void InitExtraSubs()
 {
 	WriteJump((void*)0x425710, PlayVoice_ExtraSub);
-	WriteData((char*)0x40BC9A, (char)54); //changing the text box height for menu screens so two lines would fit properly
+	WriteData((char*)0x40BC9A, (char)52); //changing the text box height for menu screens, so two lines would fit properly
+	WriteData((int*)0x40BCA1, 384); //changing the y coordinate of the text box to match menu and gameplay display methods
 }
 
 
