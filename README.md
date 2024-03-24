@@ -15,6 +15,7 @@ Subtitles will be displayed for the following:
 Currently supported languages:
 * English (2 sets: matching English dub and retranslated from Japanese by me)
 * French (2 sets, translated by Kesnos)
+* Japanese (experimental)
 
 ## Usage
 
