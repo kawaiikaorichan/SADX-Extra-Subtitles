@@ -9,7 +9,6 @@
 
 // add headers that you want to pre-compile here
 #include "framework.h"
-
-#include "include/SADXModLoader.h"
+#include "Include/SADX Mod Loader/SADXModLoader.h"
 
 #endif //PCH_H

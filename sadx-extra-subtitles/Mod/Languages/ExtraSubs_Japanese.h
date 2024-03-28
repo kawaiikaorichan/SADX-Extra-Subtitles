@@ -1,7 +1,5 @@
 ﻿#pragma once
 
-#include "ExtraSubs.h"
-#include "include/TextConv.hpp"
 #include <map>
 
 

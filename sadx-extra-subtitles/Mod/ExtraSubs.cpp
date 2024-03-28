@@ -2,12 +2,12 @@
 
 #include "Config.h"
 #include "ExtraSubs.h"
-#include "ExtraSubs_English.h"
-#include "ExtraSubs_Retranslated.h"
-#include "ExtraSubs_French.h"
-#include "ExtraSubs_FRetranslated.h"
-#include "ExtraSubs_Japanese.h"
-#include "include/TextConv.hpp"
+#include "Languages/ExtraSubs_English.h"
+#include "Languages/ExtraSubs_English_Retranslated.h"
+#include "Languages/ExtraSubs_French.h"
+#include "Languages/ExtraSubs_French_Retranslated.h"
+#include "Languages/ExtraSubs_Japanese.h"
+#include "../Include/Mod Loader Common/TextConv.hpp"
 
 #include <map>
 

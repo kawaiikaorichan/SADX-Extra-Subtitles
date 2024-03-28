@@ -1,72 +1,133 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Include">
+      <UniqueIdentifier>{409abb5f-185a-4233-85c7-f4a46e0d6397}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Include\SADX Mod Loader">
+      <UniqueIdentifier>{bfd02f42-18ef-494c-b51e-19a00f5b8d98}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Include\Mod Loader Common">
+      <UniqueIdentifier>{ba0aa63e-334b-46f0-b31d-a313233f6292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod">
+      <UniqueIdentifier>{bdf34e03-8ac4-45d4-a758-c866295e6404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mod\Languages">
+      <UniqueIdentifier>{b77a024f-f4fb-44f2-a820-807b7dcde993}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\d3d8types.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\MemAccess.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraSubs.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\ninja.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="Config.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\njdef.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="include\IniFile.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\SADXEnums.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraSubs_English.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\SADXEnumsNew.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraSubs_Retranslated.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\SADXFunctions.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraSubs_French.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\SADXFunctionsNew.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraSubs_FRetranslated.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\SADXModelsNew.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
-    <ClInclude Include="ExtraSubs_Japanese.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Include\SADX Mod Loader\SADXModInfo.h">
+      <Filter>Include\SADX Mod Loader</Filter>
     </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\SADXModLoader.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\SADXMotionsNew.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\SADXStructs.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\SADXStructsNew.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\SADXVariables.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\SADXVariablesNew.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\ScaleInfo.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SADX Mod Loader\WeightInfo.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mod Loader Common\IniFile.hpp">
+      <Filter>Include\Mod Loader Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mod Loader Common\stdafx.h">
+      <Filter>Include\Mod Loader Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mod Loader Common\targetver.h">
+      <Filter>Include\Mod Loader Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mod Loader Common\TextConv.hpp">
+      <Filter>Include\Mod Loader Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Mod Loader Common\Utils.hpp">
+      <Filter>Include\Mod Loader Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Config.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\ExtraSubs.h">
+      <Filter>Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Languages\ExtraSubs_English.h">
+      <Filter>Mod\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Languages\ExtraSubs_English_Retranslated.h">
+      <Filter>Mod\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Languages\ExtraSubs_French.h">
+      <Filter>Mod\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Languages\ExtraSubs_French_Retranslated.h">
+      <Filter>Mod\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod\Languages\ExtraSubs_Japanese.h">
+      <Filter>Mod\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="dllmain.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Include\Mod Loader Common\IniFile.cpp">
+      <Filter>Include\Mod Loader Common</Filter>
     </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Include\Mod Loader Common\TextConv.cpp">
+      <Filter>Include\Mod Loader Common</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Mod\Config.cpp">
+      <Filter>Mod</Filter>
     </ClCompile>
-    <ClCompile Include="ExtraSubs.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Mod\ExtraSubs.cpp">
+      <Filter>Mod</Filter>
     </ClCompile>
-    <ClCompile Include="Config.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Mod\Main.cpp">
+      <Filter>Mod</Filter>
     </ClCompile>
-    <ClCompile Include="include\IniFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="include\TextConv.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
   </ItemGroup>
 </Project>

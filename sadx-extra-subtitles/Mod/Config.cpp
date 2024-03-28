@@ -1,6 +1,6 @@
 #include "pch.h"
 
-#include "include/IniFile.h"
+#include "../Include/Mod Loader Common/IniFile.hpp"
 
 
 bool DisableMenuExtraSubs;

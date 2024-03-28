@@ -18,6 +18,51 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Include\Mod Loader Common\IniFile.hpp" />
+    <ClInclude Include="Include\Mod Loader Common\stdafx.h" />
+    <ClInclude Include="Include\Mod Loader Common\targetver.h" />
+    <ClInclude Include="Include\Mod Loader Common\TextConv.hpp" />
+    <ClInclude Include="Include\Mod Loader Common\Utils.hpp" />
+    <ClInclude Include="Include\SADX Mod Loader\d3d8types.h" />
+    <ClInclude Include="Include\SADX Mod Loader\MemAccess.h" />
+    <ClInclude Include="Include\SADX Mod Loader\ninja.h" />
+    <ClInclude Include="Include\SADX Mod Loader\njdef.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXEnums.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXEnumsNew.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXFunctions.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXFunctionsNew.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXModelsNew.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXModInfo.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXModLoader.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXMotionsNew.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXStructs.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXStructsNew.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXVariables.h" />
+    <ClInclude Include="Include\SADX Mod Loader\SADXVariablesNew.h" />
+    <ClInclude Include="Include\SADX Mod Loader\ScaleInfo.h" />
+    <ClInclude Include="Include\SADX Mod Loader\WeightInfo.h" />
+    <ClInclude Include="Mod\Config.h" />
+    <ClInclude Include="Mod\ExtraSubs.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_English.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_English_Retranslated.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_French.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_French_Retranslated.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_Japanese.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Include\Mod Loader Common\IniFile.cpp" />
+    <ClCompile Include="Include\Mod Loader Common\TextConv.cpp" />
+    <ClCompile Include="Mod\Config.cpp" />
+    <ClCompile Include="Mod\ExtraSubs.cpp" />
+    <ClCompile Include="Mod\Main.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -140,32 +185,6 @@
       <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Config.h" />
-    <ClInclude Include="ExtraSubs.h" />
-    <ClInclude Include="ExtraSubs_English.h" />
-    <ClInclude Include="ExtraSubs_French.h" />
-    <ClInclude Include="ExtraSubs_FRetranslated.h" />
-    <ClInclude Include="ExtraSubs_Japanese.h" />
-    <ClInclude Include="ExtraSubs_Retranslated.h" />
-    <ClInclude Include="framework.h" />
-    <ClInclude Include="include\IniFile.h" />
-    <ClInclude Include="pch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Config.cpp" />
-    <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="ExtraSubs.cpp" />
-    <ClCompile Include="include\IniFile.cpp" />
-    <ClCompile Include="include\TextConv.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

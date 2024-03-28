@@ -1,9 +1,9 @@
-#include "pch.h"
 /**
  * SADX Mod Loader
  * Text conversion functions.
  */
 
+#include "pch.h"
 #include "stdafx.h"
 #include "TextConv.hpp"
 
@@ -12,12 +12,12 @@
 
 #define CP_SJIS 932
 
- /**
-  * Convert multibyte text to UTF-16.
-  * @param mbs Multibyte text, null-terminated.
-  * @param cp Code page.
-  * @return UTF-16 text (allocated via new[]), or nullptr on error.
-  */
+/**
+ * Convert multibyte text to UTF-16.
+ * @param mbs Multibyte text, null-terminated.
+ * @param cp Code page.
+ * @return UTF-16 text (allocated via new[]), or nullptr on error.
+ */
 wchar_t* MBStoUTF16(const char* mbs, unsigned int cp)
 {
 	int cchWcs = MultiByteToWideChar(cp, 0, mbs, -1, NULL, 0);
