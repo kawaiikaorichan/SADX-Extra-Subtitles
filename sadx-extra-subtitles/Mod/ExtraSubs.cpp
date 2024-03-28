@@ -27,10 +27,11 @@ const char* UTF16toSJIS(const wchar_t* text)
 	return UTF16toMBS(text, ShiftJIS);
 }
 
-std::map<int, SubtitleData> ConvertJapaneseExtraSubs()
-{
-	std::map<int, SubtitleData> extraSubs_Japanese;
 
+std::map<int, SubtitleData> ExtraSubs_Japanese;
+
+void ConvertJapaneseExtraSubs()
+{
 	for (auto& entry : ExtraSubs_Japanese_UTF16)
 	{
 		int id = entry.first;
@@ -38,13 +39,9 @@ std::map<int, SubtitleData> ConvertJapaneseExtraSubs()
 		int duration = entry.second.Duration;
 		DisplayConditions condition = entry.second.Condition;
 
-		extraSubs_Japanese.insert({ id, { text, duration, condition } });
+		ExtraSubs_Japanese.insert({ id, { text, duration, condition } });
 	}
-
-	return extraSubs_Japanese;
 }
-
-std::map<int, SubtitleData> ExtraSubs_Japanese = ConvertJapaneseExtraSubs();
 
 
 const char** SkyChase1[]
@@ -210,6 +207,7 @@ void __cdecl PlayVoice_ExtraSub(int id)
 
 void InitExtraSubs()
 {
+	ConvertJapaneseExtraSubs();
 	WriteJump((void*)0x425710, PlayVoice_ExtraSub);
 	WriteData((char*)0x40BC9A, (char)52); //changing the text box height for menu screens, so two lines would fit properly
 	WriteData((int*)0x40BCA1, 384); //changing the y coordinate of the text box to match menu and gameplay display methods
