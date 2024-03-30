@@ -1,5 +1,4 @@
 ﻿#include "pch.h"
-
 #include "Config.h"
 #include "ExtraSubs.h"
 #include "Languages/ExtraSubs_English.h"
@@ -8,7 +7,6 @@
 #include "Languages/ExtraSubs_French_Retranslated.h"
 #include "Languages/ExtraSubs_Japanese.h"
 #include "../Include/Mod Loader Common/TextConv.hpp"
-
 #include <map>
 
 
