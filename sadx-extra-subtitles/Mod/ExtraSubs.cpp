@@ -6,7 +6,7 @@
 #include "Languages/ExtraSubs_French.h"
 #include "Languages/ExtraSubs_French_Retranslated.h"
 #include "Languages/ExtraSubs_Japanese.h"
-#include "../Include/Mod Loader Common/TextConv.hpp"
+#include "Include/Mod Loader Common/TextConv.hpp"
 #include <map>
 
 

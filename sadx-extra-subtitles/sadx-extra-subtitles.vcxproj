@@ -21,8 +21,6 @@
   <ItemGroup>
     <ClInclude Include="framework.h" />
     <ClInclude Include="Include\Mod Loader Common\IniFile.hpp" />
-    <ClInclude Include="Include\Mod Loader Common\stdafx.h" />
-    <ClInclude Include="Include\Mod Loader Common\targetver.h" />
     <ClInclude Include="Include\Mod Loader Common\TextConv.hpp" />
     <ClInclude Include="Include\Mod Loader Common\Utils.hpp" />
     <ClInclude Include="Include\SADX Mod Loader\d3d8types.h" />
