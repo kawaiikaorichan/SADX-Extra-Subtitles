@@ -1,5 +1,10 @@
 #pragma once
 
-void ReadConfig(const char* modPath);
-bool MenuExtraSubsDisabled();
-bool UseRetranslatedSubtitles();
+class Config
+{
+public:
+	static bool DisableMenuExtraSubs;
+	static std::string SubtitlesMode;
+
+	static void Read(const char* modPath);
+};

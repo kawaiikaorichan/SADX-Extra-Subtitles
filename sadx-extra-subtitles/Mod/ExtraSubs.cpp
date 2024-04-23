@@ -26,6 +26,12 @@ const char* UTF16toSJIS(const wchar_t* text)
 }
 
 
+bool UseRetranslatedSubtitles()
+{
+	return Config::SubtitlesMode == "AlwaysRetranslated" || Config::SubtitlesMode == "Auto" && VoiceLanguage == Languages_Japanese;
+}
+
+
 std::map<int, SubtitleData> ExtraSubs_Japanese;
 
 void ConvertJapaneseExtraSubs()
@@ -176,7 +182,7 @@ void DisplaySubtitle(int id)
 	
 	if (ExtraSubs[TextLanguage]->at(id).Condition == Menu)
 	{
-		if (!MenuExtraSubsDisabled())
+		if (!Config::DisableMenuExtraSubs)
 		{
 			SetUpMenuSubtitle(id);
 		}		
