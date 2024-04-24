@@ -11,6 +11,6 @@ void Config::Read(const char* modPath)
 {
 	IniFile config(std::string(modPath) + "\\config.ini");
 
-	Config::DisableMenuExtraSubs = config.getBool("Options", "DisableMenuExtraSubs", false);
-	Config::SubtitlesMode = config.getString("Options", "SubtitlesMode", "Auto");
+	DisableMenuExtraSubs = config.getBool("Options", "DisableMenuExtraSubs", false);
+	SubtitlesMode = config.getString("Options", "SubtitlesMode", "Auto");
 }
