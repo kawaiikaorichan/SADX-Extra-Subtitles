@@ -40,13 +40,13 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 6, { L"\aテイルスの操作方法です", 120, Menu } },
 	{ 7, { L"\aナックルズの操作方法です", 120, Menu } },
 	{ 8, { L"\aエミーの操作方法です", 120, Menu } },
-	{ 9, { L"\aE-102ガンマの操作方法です", 150, Menu } },
+	{ 9, { L"\aＥ－１０２ガンマの操作方法です", 150, Menu } },
 	{ 10, { L"\aビッグの操作方法です", 120, Menu } },
 	{ 11, { L"\aアクションステージのルール説明です", 150, Menu } },
 	{ 12, { L"\aステージを選んでください", 90, Menu } },
 	{ 13, { L"\aゲームを選んでください", 90, Menu } },
 	{ 14, { L"\aオプション画面です\n設定項目を変更できます", 210, Menu } },
-	{ 15, { L"\aサウンドテストです\nBGMを聴くことができます", 240, Menu } },
+	{ 15, { L"\aサウンドテストです\nＢＧＭを聴くことができます", 240, Menu } },
 	{ 16, { L"\aメモリーカードが準備できていません", 150, Menu } },
 	{ 17, { L"\aメモリーカードの空き容量がありません", 150, Menu } },
 
@@ -61,13 +61,13 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 24, { L"\aテイルスくんの操作方法よ", 90, Menu } },
 	{ 25, { L"\aナックルズの操作方法よ", 90, Menu } },
 	{ 26, { L"\aエミーちゃんの操作方法よ", 90, Menu } },
-	{ 27, { L"\aE-102ガンマの操作方法よ", 120, Menu } },
+	{ 27, { L"\aＥ－１０２ガンマの操作方法よ", 120, Menu } },
 	{ 28, { L"\aビッグの操作方法よ", 90, Menu } },
-	{ 29, { L"\aアクションステージのルール説明よ\n知ってる覚えてね", 210, Menu } },
+	{ 29, { L"\aアクションステージのルール説明よ\nしっかり覚えてね", 210, Menu } },
 	{ 30, { L"\aどのステージを遊ぶ？", 120, Menu } },
 	{ 31, { L"\aどのミニゲームを遊ぶ？", 120, Menu } },
 	{ 32, { L"\aオプション画面よ\n色んな設定を変更できるわ", 210, Menu } },
-	{ 33, { L"\aサウンドテストよ\nゲームチューンの曲を聴くことができるの", 240, Menu } },
+	{ 33, { L"\aサウンドテストよ\nゲーム中の曲を聴くことができるの", 240, Menu } },
 	{ 34, { L"\aメモリーカードがないみたいね", 120, Menu } },
 	{ 35, { L"\aメモリーカードの容量が足りないわよ", 150, Menu } },
 
@@ -109,7 +109,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 66, { L"\aどのステージにする？", 90, Menu } },
 	{ 67, { L"\aどのミニゲームにする？", 90, Menu } },
 	{ 68, { L"\aオプションだよ\n色んな設定を変更できるんだ", 210, Menu } },
-	{ 69, { L"\aサウンドテストだよ\nゲームチューンの曲が聴けるんだ", 240, Menu } },
+	{ 69, { L"\aサウンドテストだよ\nゲーム中の曲が聴けるんだ", 240, Menu } },
 	{ 70, { L"\aメモリーカード、ちゃんと刺してる？", 120, Menu } },
 	{ 71, { L"\aメモリーカードの空き容量がないみたいだよ", 180, Menu } },
 
@@ -119,7 +119,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 73, { L"\aファイルを選んでくれ", 90, Menu } },
 	{ 74, { L"\a物語を進めるアドベンチャーモードだ", 180, Menu } },
 	{ 75, { L"\a一つのステージだけを遊ぶモードだ", 180, Menu } },
-	{ 76, { L"プレイするキャラクターを選ぶんだ", 120, Menu}},
+	{ 76, { L"\aプレイするキャラクターを選ぶんだ", 120, Menu}},
 	{ 77, { L"\aソニックの操作方法だ", 120, Menu } },
 	{ 78, { L"\aテイルスの操作方法だ", 120, Menu } },
 	{ 79, { L"\a俺の操作方法だ", 120, Menu } },
@@ -130,7 +130,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 84, { L"\aどのステージにするんだ？", 90, Menu } },
 	{ 85, { L"\aどのゲームにするんだ？", 90, Menu } },
 	{ 86, { L"\aオプション画面\nここで色んな設定ができるんだ", 210, Menu } },
-	{ 87, { L"\aサウンドテストだ\nBGMを聴くことができるぜ", 210, Menu } },
+	{ 87, { L"\aサウンドテストだ\nＢＧＭを聴くことができるぜ", 210, Menu } },
 	{ 88, { L"\aメモリーカードの準備ができていないらしいな", 150, Menu } },
 	{ 89, { L"\aメモリーカードの空き容量がないみたいだ", 150, Menu } },
 
@@ -151,7 +151,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 102, { L"\aどのステージを遊ぶの？", 120, Menu } },
 	{ 103, { L"\aどのミニゲームを遊ぶの？", 120, Menu } },
 	{ 104, { L"\aオプション画面\nここで色んな設定ができちゃうの", 240, Menu } },
-	{ 105, { L"\aサウンドテスト\nゲームチューンの曲が聴けちゃうのよ", 240, Menu } },
+	{ 105, { L"\aサウンドテスト\nゲーム中の曲が聴けちゃうのよ", 240, Menu } },
 	{ 106, { L"\aメモリーカード、ちゃんと刺さってる？", 150, Menu } },
 	{ 107, { L"\aメモリーカードの容量が足りないですって", 150, Menu } },
 
@@ -166,7 +166,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 114, { L"\a操作説明：テイルス", 150, Menu } },
 	{ 115, { L"\a操作説明：ナックルズ", 180, Menu } },
 	{ 116, { L"\a操作説明：エミー", 150, Menu } },
-	{ 117, { L"\a操作説明：E-102ガンマ", 270, Menu } },
+	{ 117, { L"\a操作説明：Ｅ－１０２ガンマ", 270, Menu } },
 	{ 118, { L"\a操作説明：ビッグ", 150, Menu } },
 	{ 119, { L"\aアクションステージノ ルール説明\n直チニ インプットセヨ", 360, Menu} },
 	{ 120, { L"\aプレイステージヲ選択セヨ", 150, Menu } },
@@ -190,9 +190,9 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 135, { L"\aロボットの操作方法だよ", 180, Menu } },
 	{ 136, { L"\a僕の操作方法だよ", 180, Menu } },
 	{ 137, { L"\aアクションステージのルールだよ\nちゃんと覚えてね", 330, Menu } },
-	{ 138, { L"\aどこは遊ぶ？", 120, Menu } },
-	{ 139, { L"\aどれは遊ぶ？", 120, Menu } },
-	{ 140, { L"\aオプションだよ\n何か変えられるらしいと", 300, Menu } },
+	{ 138, { L"\aどこを遊ぶ？", 120, Menu } },
+	{ 139, { L"\aどれを遊ぶ？", 120, Menu } },
+	{ 140, { L"\aオプションだよ\n何か変えられるらしいぞ", 300, Menu } },
 	{ 141, { L"\aサウンドテストだよ\n音楽を聴けるんだ", 270, Menu } },
 	{ 142, { L"\aメモリーカード、ちゃんと刺さってる？", 210, Menu } },
 	{ 143, { L"\aメモリーカードの容量が足りないよ", 210, Menu } },
@@ -208,9 +208,9 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 150, { L"\a子ギツネテイルスの操作方法じゃ", 150, Menu } },
 	{ 151, { L"\aアホ ナックルズの操作方法じゃ", 150, Menu } },
 	{ 152, { L"\a小娘エミーの操作方法じゃ", 150, Menu } },
-	{ 153, { L"\a我がしもべ、E-102ガンマの操作方法じゃ", 240, Menu } },
+	{ 153, { L"\a我がしもべ、Ｅ－１０２ガンマの操作方法じゃ", 240, Menu } },
 	{ 154, { L"\aビッグとか言うデブ猫の操作方法じゃ", 210, Menu } },
-	{ 155, { L"\aアクションステージのルール説明じゃ\nこんなものは見とらんで、さっさとゲームが始めるか", 480, Menu } }, // *?* not sure
+	{ 155, { L"\aアクションステージのルール説明じゃ\nこんなもの見とらんで、さっさとゲーム始めるか", 480, Menu } }, // *?* not sure
 	{ 156, { L"\aどのステージをやるんじゃ？", 120, Menu } },
 	{ 157, { L"\aどのミニゲームをやるんじゃ？", 120, Menu } },
 	{ 158, { L"\aオプション画面じゃ\nさ、好きなように設定を変えて見るがよい", 300, Menu } }, // *?* not sure
@@ -222,7 +222,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	/* Character select lines */
 
 	{ 1837, { L"\aLet's get them!", 120, Menu } }, //Sonic
-	{ 1800, { L"\aソニック！今行きよ！", 120, Menu } }, //Tails - *?* not sure
+	{ 1800, { L"\aソニック！今行くよ！", 120, Menu } }, //Tails - *?* not sure
 	{ 1787, { L"\aよし、行くぜ！", 90, Menu } }, //Knuckles
 	{ 1730, { L"\aあたしの出番ね！", 90, Menu } }, //Amy
 	{ 1767, { L"\a準備完了", 150, Menu } }, //Gamma
@@ -295,7 +295,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 306, { L"\a閑散としたところだなぁ…", 120, Gameplay } }, //Sonic
 	{ 307, { L"\a駅が出来てこの辺も変わっちゃったなぁ…", 180, Gameplay } }, //Tails
 	{ 308, { L"\a早くマスターエメラルドを…", 150, Gameplay } }, //Knuckles
-	{ 309, { L"\aあたしってこういうとこ苦手なもよね", 210, Gameplay } }, //Amy - *?* not sure
+	{ 309, { L"\aあたしってこういうとこ苦手なのよね", 210, Gameplay } }, //Amy - *?* not sure
 	{ 310, { L"\aカエルくん、どこかなぁ？", 180, Gameplay } }, //Big
 	{ 311, { L"\aミスティックルインヲ探索中", 180, Gameplay } }, //Gamma
 
@@ -307,7 +307,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	//Mystic Ruins - jungle
 
-	{ 315, { L"\aやったこうでないだな!", 90, Gameplay } }, //Sonic - *?* not sure
+	{ 315, { L"\aやっぱこうでないとな!", 90, Gameplay } }, //Sonic - *?* not sure
 	{ 316, { L"\a僕はどっちから来たんだっけ？", 120, Gameplay } }, //Tails
 	{ 317, { L"\a何か… 懐かしい気持ちになる…", 210, Gameplay } }, //Knuckles
 	{ 318, { L"\aすごいところね！", 120, Gameplay } }, //Amy
@@ -366,7 +366,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	//Windy Valley
 
 	{ 231, { L"\a遠くで風の音が聞こえる", 120, Gameplay } }, //Sonic
-	{ 232, { L"\aE-103ノ存在ヲ確認", 240, Gameplay } }, //Gamma
+	{ 232, { L"\aＥ－１０３ノ存在ヲ確認", 240, Gameplay } }, //Gamma
 	{ 233, { L"\a早く脱出しないと！", 120, Gameplay } }, //Sonic
 	{ 234, { L"\aずいぶん高いとこまで来ちまったなぁ…", 150, Gameplay } }, //Sonic
 	{ 235, { L"\aソニック、どこへ行っちゃったんだろう？", 120, Gameplay } }, //Tails
@@ -404,7 +404,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	{ 253, { L"\aエッグキャリアはどこへ行った？", 120, Gameplay } }, //Sonic
 	{ 254, { L"\aへえ… 溶岩に落ちたらイチコロだなぁ…", 270, Gameplay } }, //Sonic
-	{ 255, { L"\aE-104ノ存在ヲ確認", 120, Gameplay } }, //Gamma
+	{ 255, { L"\aＥ－１０４ノ存在ヲ確認", 120, Gameplay } }, //Gamma
 	{ 256, { L"\aこの崖から落ちたら終わりだな", 150, Gameplay } }, //Knuckles
 
 	//Sky Deck
@@ -434,7 +434,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 270, { L"\aエッグマンって本当最低よね！", 150, Gameplay } }, //Amy
 	{ 271, { L"\aカエルくん、大丈夫かなぁ…", 210, Gameplay } }, //Big
 	{ 272, { L"\aもう、どっちへ行けばいいの？", 210, Gameplay } }, //Amy
-	{ 273, { L"\aE-105ノ存在ヲ確認", 120, Gameplay } }, //Gamma
+	{ 273, { L"\aＥ－１０５ノ存在ヲ確認", 120, Gameplay } }, //Gamma
 
 
 	/* Boss battle idle lines */
@@ -486,7 +486,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	{ 348, { L"\aまったく、なんて平和な場所なんだ", 150, Gameplay } },
 	{ 349, { L"\aよ！ いい子にしてたかい？", 120, Gameplay } }, // *?* not sure
-	{ 350, { L"\aHey guys! 喧嘩してダメだぜ！", 150, Gameplay } },
+	{ 350, { L"\aHey guys! 喧嘩しちゃダメだぜ！", 150, Gameplay } },
 
 	//Tails
 
@@ -544,14 +544,14 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	//Sky Chase 2 - before transformation
 
-	{ 765, { L"\aよし、第一に防衛ラインを移るか", 180, Gameplay } }, // *?* not sure
-	{ 766, { L"\aまだ次の来るぞ！", 90, Gameplay } },
+	{ 765, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } }, // *?* not sure
+	{ 766, { L"\aまだ次が来るぞ！", 90, Gameplay } },
 	{ 767, { L"\a分かってるって！", 90, Gameplay } },
 
 	//Sky Chase 2 - transformation sequence alternate lines (they also match the regular lines in Japanese)
 
-	{ 530, { L"\aよし、第一に防衛ラインを移るか", 180, Gameplay } }, // *?* not sure
-	{ 531, { L"\aまだ次の来るぞ！", 90, Gameplay } },
+	{ 530, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } }, // *?* not sure
+	{ 531, { L"\aまだ次が来るぞ！", 90, Gameplay } },
 	{ 532, { L"\a分かってるって！", 90, Gameplay } },
 	{ 533, { L"\aシステムモード、チェンジ！", 120, Gameplay } },
 	{ 534, { L"\aわあああああう！", 90, Gameplay } },
@@ -577,7 +577,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	//Speed Highway (Eggman's voice)
 
 	{ 216, { L"\aこのワシについて来られるかな？", 150, Gameplay } }, // *?* not sure
-	{ 217, { L"\aつかがえたぞ、テイルス！", 120, Gameplay } }, // *?* not sure about the beginning
+	{ 217, { L"\aつかまえたぞ、テイルス！", 120, Gameplay } }, // *?* not sure about the beginning
 	{ 218, { L"\aなんと？ 追いつけおったわ？", 120, Gameplay } }, // *?* not sure
 	{ 219, { L"\aくそ、この子ギツネめ！", 120, Gameplay } },
 	{ 220, { L"\aテ、テイルスちゃん、待って！", 180, Gameplay } },
@@ -708,11 +708,11 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	{ 1768, { L"\a走行完了", 150, Gameplay } }, //Twinkle Circuit clear
 	{ 1770, { L"\aミッションコンプリート", 150, Gameplay } }, //stage clear
-	{ 1771, { L"\aE-101ベタ：救出完了", 300, Gameplay } }, //Beta mk.2 clear
+	{ 1771, { L"\aＥ－１０１ベタ：救出完了", 300, Gameplay } }, //Beta mk.2 clear
 	{ 1772, { L"\aカエル捕獲完了", 240, Gameplay } }, //Emerald Coast clear
-	{ 1773, { L"\aE-105ゼタ：救出完了", 300, Gameplay } }, //Hot Shelter clear
-	{ 1774, { L"\aE-104イプシロン：救出完了", 300, Gameplay } }, //Red Mountain clear
-	{ 1775, { L"\aE-103デルタ：救出完了", 300, Gameplay } }, //Windy Valley clear
+	{ 1773, { L"\aＥ－１０５ゼタ：救出完了", 300, Gameplay } }, //Hot Shelter clear
+	{ 1774, { L"\aＥ－１０４イプシロン：救出完了", 300, Gameplay } }, //Red Mountain clear
+	{ 1775, { L"\aＥ－１０３デルタ：救出完了", 300, Gameplay } }, //Windy Valley clear
 	{ 1777, { L"\a脱出不能", 150, Gameplay } }, //captured
 	{ 1778, { L"\aミッション失敗", 150, Gameplay } }, //died
 	{ 1786, { L"\a活動不能", 150, Gameplay } }, //time over
