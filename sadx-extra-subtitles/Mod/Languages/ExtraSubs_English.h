@@ -1,7 +1,5 @@
 #pragma once
 
-#include <map>
-
 
 const char* SkyChase1_English[] = { "\aTime for a little power play of my own!", "\aEgg Cannon ready!", "\aFIRE!", "\aAah, we're hit!", "\aYeah! Woaaaaaah!" };
 const char* SkyChase2_English[] = { "\aTransforming now!", "\aWoaaah!", "\aLet's do it!", NULL };

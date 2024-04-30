@@ -7,7 +7,6 @@
 #include "Languages/ExtraSubs_French_Retranslated.h"
 #include "Languages/ExtraSubs_Japanese.h"
 #include "Include/Mod Loader Common/TextConv.hpp"
-#include <map>
 
 
 FunctionPointer(void, sub_40BC80, (), 0x40BC80);

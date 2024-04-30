@@ -1,7 +1,5 @@
 ﻿#pragma once
 
-#include <map>
-
 
 /* This is basically experimental, some lines might be interpreted incorrectly */
 
@@ -351,7 +349,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 341, { L"\aどこが出口なんだ？", 90, Gameplay } }, //Knuckles
 	{ 342, { L"\a見つかんないように静かに歩きましょう", 150, Gameplay } }, //Amy
 	{ 343, { L"\a任務継続中", 120, Gameplay } }, //Gamma
-	{ 344, { L"\aンンと… 出口出口っと…", 210, Gameplay } }, //Big --- ンンと… 出口出口っと…
+	{ 344, { L"\aンンと… 出口出口っと…", 210, Gameplay } }, //Big
 
 
 	/* Action stages idle lines */
@@ -544,13 +542,13 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	//Sky Chase 2 - before transformation
 
-	{ 765, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } }, // *?* not sure
+	{ 765, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } },
 	{ 766, { L"\aまだ次が来るぞ！", 90, Gameplay } },
 	{ 767, { L"\a分かってるって！", 90, Gameplay } },
 
 	//Sky Chase 2 - transformation sequence alternate lines (they also match the regular lines in Japanese)
 
-	{ 530, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } }, // *?* not sure
+	{ 530, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } },
 	{ 531, { L"\aまだ次が来るぞ！", 90, Gameplay } },
 	{ 532, { L"\a分かってるって！", 90, Gameplay } },
 	{ 533, { L"\aシステムモード、チェンジ！", 120, Gameplay } },

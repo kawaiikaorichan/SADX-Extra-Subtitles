@@ -1,7 +1,5 @@
 #pragma once
 
-#include <map>
-
 
 const char* SkyChase1_French[] = { "\aC'est l'heure d'employer un tour de force comme je les aime !", "\aEgg Cannon prêt !", "\aFEU !", "\aAah, on est touchés !", "\aOuais ! Woaaaaaah !" };
 const char* SkyChase2_French[] = { "\aTransformation maintenant !", "\aWoaaah !", "\aFinissons-en !", NULL };
