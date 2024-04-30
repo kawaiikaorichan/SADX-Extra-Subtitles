@@ -67,7 +67,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 30, { L"\aどのステージを遊ぶ？", 120, Menu } },
 	{ 31, { L"\aどのミニゲームを遊ぶ？", 120, Menu } },
 	{ 32, { L"\aオプション画面よ\n色んな設定を変更できるわ", 210, Menu } },
-	{ 33, { L"\aサウンドテストよ\nゲームチューンの曲を聴くことができるの", 240, Menu } },
+	{ 33, { L"\aサウンドテストよ\nゲーム中の曲を聴くことができるの", 240, Menu } },
 	{ 34, { L"\aメモリーカードがないみたいね", 120, Menu } },
 	{ 35, { L"\aメモリーカードの容量が足りないわよ", 150, Menu } },
 
@@ -109,7 +109,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 66, { L"\aどのステージにする？", 90, Menu } },
 	{ 67, { L"\aどのミニゲームにする？", 90, Menu } },
 	{ 68, { L"\aオプションだよ\n色んな設定を変更できるんだ", 210, Menu } },
-	{ 69, { L"\aサウンドテストだよ\nゲームチューンの曲が聴けるんだ", 240, Menu } },
+	{ 69, { L"\aサウンドテストだよ\nゲーム中の曲が聴けるんだ", 240, Menu } },
 	{ 70, { L"\aメモリーカード、ちゃんと刺してる？", 120, Menu } },
 	{ 71, { L"\aメモリーカードの空き容量がないみたいだよ", 180, Menu } },
 
@@ -151,7 +151,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 102, { L"\aどのステージを遊ぶの？", 120, Menu } },
 	{ 103, { L"\aどのミニゲームを遊ぶの？", 120, Menu } },
 	{ 104, { L"\aオプション画面\nここで色んな設定ができちゃうの", 240, Menu } },
-	{ 105, { L"\aサウンドテスト\nゲームチューンの曲が聴けちゃうのよ", 240, Menu } },
+	{ 105, { L"\aサウンドテスト\nゲーム中の曲が聴けちゃうのよ", 240, Menu } },
 	{ 106, { L"\aメモリーカード、ちゃんと刺さってる？", 150, Menu } },
 	{ 107, { L"\aメモリーカードの容量が足りないですって", 150, Menu } },
 
@@ -222,7 +222,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	/* Character select lines */
 
 	{ 1837, { L"\aLet's get them!", 120, Menu } }, //Sonic
-	{ 1800, { L"\aソニック！今行きよ！", 120, Menu } }, //Tails - *?* not sure
+	{ 1800, { L"\aソニック！今行くよ！", 120, Menu } }, //Tails - *?* not sure
 	{ 1787, { L"\aよし、行くぜ！", 90, Menu } }, //Knuckles
 	{ 1730, { L"\aあたしの出番ね！", 90, Menu } }, //Amy
 	{ 1767, { L"\a準備完了", 150, Menu } }, //Gamma
@@ -295,7 +295,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 306, { L"\a閑散としたところだなぁ…", 120, Gameplay } }, //Sonic
 	{ 307, { L"\a駅が出来てこの辺も変わっちゃったなぁ…", 180, Gameplay } }, //Tails
 	{ 308, { L"\a早くマスターエメラルドを…", 150, Gameplay } }, //Knuckles
-	{ 309, { L"\aあたしってこういうとこ苦手なもよね", 210, Gameplay } }, //Amy - *?* not sure
+	{ 309, { L"\aあたしってこういうとこ苦手なのよね", 210, Gameplay } }, //Amy - *?* not sure
 	{ 310, { L"\aカエルくん、どこかなぁ？", 180, Gameplay } }, //Big
 	{ 311, { L"\aミスティックルインヲ探索中", 180, Gameplay } }, //Gamma
 
@@ -307,7 +307,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	//Mystic Ruins - jungle
 
-	{ 315, { L"\aやったこうでないだな!", 90, Gameplay } }, //Sonic - *?* not sure
+	{ 315, { L"\aやっぱこうでないとな!", 90, Gameplay } }, //Sonic - *?* not sure
 	{ 316, { L"\a僕はどっちから来たんだっけ？", 120, Gameplay } }, //Tails
 	{ 317, { L"\a何か… 懐かしい気持ちになる…", 210, Gameplay } }, //Knuckles
 	{ 318, { L"\aすごいところね！", 120, Gameplay } }, //Amy
@@ -486,7 +486,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	{ 348, { L"\aまったく、なんて平和な場所なんだ", 150, Gameplay } },
 	{ 349, { L"\aよ！ いい子にしてたかい？", 120, Gameplay } }, // *?* not sure
-	{ 350, { L"\aHey guys! 喧嘩してダメだぜ！", 150, Gameplay } },
+	{ 350, { L"\aHey guys! 喧嘩しちゃダメだぜ！", 150, Gameplay } },
 
 	//Tails
 
@@ -544,14 +544,14 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	//Sky Chase 2 - before transformation
 
-	{ 765, { L"\aよし、第一に防衛ラインを移るか", 180, Gameplay } }, // *?* not sure
-	{ 766, { L"\aまだ次の来るぞ！", 90, Gameplay } },
+	{ 765, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } }, // *?* not sure
+	{ 766, { L"\aまだ次が来るぞ！", 90, Gameplay } },
 	{ 767, { L"\a分かってるって！", 90, Gameplay } },
 
 	//Sky Chase 2 - transformation sequence alternate lines (they also match the regular lines in Japanese)
 
-	{ 530, { L"\aよし、第一に防衛ラインを移るか", 180, Gameplay } }, // *?* not sure
-	{ 531, { L"\aまだ次の来るぞ！", 90, Gameplay } },
+	{ 530, { L"\aよし、第１次防衛ライン通過！", 180, Gameplay } }, // *?* not sure
+	{ 531, { L"\aまだ次が来るぞ！", 90, Gameplay } },
 	{ 532, { L"\a分かってるって！", 90, Gameplay } },
 	{ 533, { L"\aシステムモード、チェンジ！", 120, Gameplay } },
 	{ 534, { L"\aわあああああう！", 90, Gameplay } },
@@ -577,7 +577,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	//Speed Highway (Eggman's voice)
 
 	{ 216, { L"\aこのワシについて来られるかな？", 150, Gameplay } }, // *?* not sure
-	{ 217, { L"\aつかがえたぞ、テイルス！", 120, Gameplay } }, // *?* not sure about the beginning
+	{ 217, { L"\aつかまえたぞ、テイルス！", 120, Gameplay } }, // *?* not sure about the beginning
 	{ 218, { L"\aなんと？ 追いつけおったわ？", 120, Gameplay } }, // *?* not sure
 	{ 219, { L"\aくそ、この子ギツネめ！", 120, Gameplay } },
 	{ 220, { L"\aテ、テイルスちゃん、待って！", 180, Gameplay } },
