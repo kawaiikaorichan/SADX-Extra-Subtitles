@@ -212,7 +212,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	{ 390, { "\aIl va bientôt falloir y aller...", 90, Gameplay } }, //Sonic
 	{ 392, { "\aJe dois me dépêcher !", 60, Gameplay } }, //Knuckles
-	{ 393, { "\aAah, je suis si fatiguée !", 90, Gameplay } }, //Amy
+	{ 393, { "\aWaah, je suis si fatiguée !", 90, Gameplay } }, //Amy
 	{ 394, { "\aPréparations au combat complétées.", 180, Gameplay } }, //Gamma
 	{ 395, { "\aJe commence à avoir faim.", 210, Gameplay } }, //Big
 
@@ -226,7 +226,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 290, { "\aVoici donc Station Square ?", 120, Gameplay } }, //Knuckles
 	{ 291, { "\aUne ville avec vue sur\nl'océan, c'est tellement génial !", 180, Gameplay } }, //Amy
 	{ 292, { "\aJe me demande s'il y a des poissons\nici...", 210, Gameplay } }, //Big
-	{ 293, { "\aExploration de Station Square...", 180, Gameplay } }, //Gamma
+	{ 293, { "\aExploration de Station Square en cours...", 180, Gameplay } }, //Gamma
 
 	//Station Square - city hall area
 
@@ -235,7 +235,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 276, { "\aJe ne me sens pas à ma place, dans une ville.", 120, Gameplay } }, //Knuckles
 	{ 277, { "\aDevrais-je faire les magasins ?", 120, Gameplay } }, //Amy
 	{ 278, { "\aTout le monde a l'air d'être occupé.", 180, Gameplay } }, //Big
-	{ 279, { "\aDétection de formes de vie humaine détectées.", 210, Gameplay } }, //Gamma
+	{ 279, { "\aDétection d'êtres humains.", 210, Gameplay } }, //Gamma
 
 	//Station Square - sewers
 
@@ -295,8 +295,8 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Final Egg entrance
 
-	{ 321, { "\aVoilà donc la base d'Eggman ?", 120, Gameplay } }, //Sonic
-	{ 322, { "\aVoilà donc la forteresse d'Eggman !", 120, Gameplay } }, //Tails
+	{ 321, { "\aVoici donc la base d'Eggman ?", 120, Gameplay } }, //Sonic
+	{ 322, { "\aVoici donc la forteresse d'Eggman !", 120, Gameplay } }, //Tails
 	{ 323, { "\aC'est... sa base ?", 120, Gameplay } }, //Knuckles, wtf?
 	{ 324, { "\aSonic, je ferai de mon mieux !", 150, Gameplay } }, //Amy
 	{ 325, { "\aL'endroit où j'ai été créé.", 120, Gameplay } }, //Gamma
@@ -312,7 +312,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Past (fire)
 
 	{ 331, { "\aC'est horrible !", 60, Gameplay } }, //Sonic
-	{ 332, { "\aPourquoi...?", 60, Gameplay } }, //Knuckles
+	{ 332, { "\aPourquoi... ?", 60, Gameplay } }, //Knuckles
 
 	//Egg Carrier - outside
 
@@ -320,16 +320,16 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 334, { "\aCe vaisseau est incroyable !", 120, Gameplay } }, //Tails
 	{ 335, { "\aEt dire qu'une telle chose\npeut voler...", 180, Gameplay } }, //Knuckles
 	{ 336, { "\aPourquoi voudrait-il\ncréer une chose pareille...", 180, Gameplay } }, //Amy
-	{ 337, { "\aPoursuivre la mission...", 120, Gameplay } }, //Gamma
-	{ 338, { "\aComment se vaisseau fait-il pour voler ?", 210, Gameplay } }, //Big
+	{ 337, { "\aPoursuite de la mission...", 120, Gameplay } }, //Gamma
+	{ 338, { "\aComment ce vaisseau fait-il pour voler ?", 210, Gameplay } }, //Big
 
 	//Egg Carrier - inside
 
 	{ 339, { "\aGhh... Il n'essaye même pas de cacher\nses goûts à ses compagnons de voyage !", 240, Gameplay } }, //Sonic
-	{ 340, { "\aUn jour, je créérai un vaisseau comme celui-ci !", 120, Gameplay } }, //Tails
+	{ 340, { "\aUn jour, je créerai un vaisseau comme celui-ci !", 120, Gameplay } }, //Tails
 	{ 341, { "\aOù est la sortie ?", 90, Gameplay } }, //Knuckles
 	{ 342, { "\aMarchons doucement pour ne pas\nnous faire repérer.", 150, Gameplay } }, //Amy
-	{ 343, { "\aPoursuivre la mission...", 120, Gameplay } }, //Gamma
+	{ 343, { "\aPoursuite de la mission...", 120, Gameplay } }, //Gamma
 	{ 344, { "\aHuum... Sortie ? Sortie ? Huum...", 210, Gameplay } }, //Big
 
 
@@ -338,7 +338,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Emerald Coast
 
 	{ 227, { "\aJ'imagine que je n'ai qu'à\nlonger le bord de mer.", 150, Gameplay } }, //Sonic
-	{ 228, { "\aDétection de formes de vie grenouille détectées.", 180, Gameplay } }, //Gamma
+	{ 228, { "\aDétection de grenouilles.", 180, Gameplay } }, //Gamma
 	{ 229, { "\aLe vent fait du bien !", 120, Gameplay } }, //Sonic
 	{ 230, { "\aWQuel grand lac !", 150, Gameplay } }, //Big
 
@@ -358,11 +358,11 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Icecap
 
-	{ 239, { "\aPfiou... Il fait froid à en geler ici !", 150, Gameplay } }, //Sonic
+	{ 239, { "\aPfiou... Il fait froid à en geler, ici !", 150, Gameplay } }, //Sonic
 	{ 240, { "\aC'est comme un royaume de glace...", 120, Gameplay } }, //Sonic
 	{ 241, { "\aLa glace semble délicieuse !", 150, Gameplay } }, //Big
 	{ 242, { "\aJe vais faire des figures de malade !", 150, Gameplay } }, //Sonic
-	{ 243, { "\aJe suppose qu'il va falloir descendre.", 120, Gameplay } }, //Tails
+	{ 243, { "\aJ'imagine qu'il va falloir descendre.", 120, Gameplay } }, //Tails
 
 	//Twinkle Park
 
@@ -390,8 +390,8 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	{ 257, { "\aPfiou... Si je tombe ici, c'est terminé pour moi.", 210, Gameplay } }, //Sonic
 	{ 258, { "\aC'est si haut...\nMes jambes commencent à faiblir !", 180, Gameplay } }, //Tails
-	{ 259, { "\aShoot ! Ce vent est pénible !", 240, Gameplay } }, //Sonic
-	{ 260, { "\aHey-hey, c'est quoi le\nproblème de ce vaisseau ?", 180, Gameplay } }, //Sonic
+	{ 259, { "\aShoot ! Que ce vent est pénible !", 240, Gameplay } }, //Sonic
+	{ 260, { "\aHey hey, c'est quoi le\nproblème de ce vaisseau ?", 180, Gameplay } }, //Sonic
 	{ 261, { "\aBien... Où sont les trésors ?", 210, Gameplay } }, //Knuckles
 
 	//Lost World
@@ -471,13 +471,13 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	{ 351, { "\aJe me sens soulagé quand je viens ici.", 120, Gameplay } },
 	{ 352, { "\aComment vous allez, les gars ?", 90, Gameplay } },
-	{ 353, { "\aJe vous aime moi aussi !", 120, Gameplay } },
+	{ 353, { "\aJe vous aime, moi aussi !", 120, Gameplay } },
 
 	//Knuckles
 
 	{ 354, { "\aJe suppose qu'il n'y a pas d'Émeraudes ici...", 150, Gameplay } },
 	{ 355, { "\aJ'ai l'impression...\nd'avoir déjà rencontré ces gars quelque part...", 210, Gameplay } },
-	{ 356, { "\aÊtre ici me rappelle ma contrée\npour je ne sais quelle raison...", 240, Gameplay } },
+	{ 356, { "\aÊtre ici me rappelle ma contrée\npour d'étranges raisons...", 240, Gameplay } },
 
 	//Amy
 
@@ -542,9 +542,9 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//All Tails' stages except for Speed Highway (Sonic's voice)
 
 	{ 205, { "\aCome on, Tails !", 60, Gameplay } },
-	{ 206, { "\aHey-hey-hey !", 90, Gameplay } },
+	{ 206, { "\aHey hey hey !", 90, Gameplay } },
 	{ 207, { "\aBien joué, Tails ! Continue comme ça !", 120, Gameplay } },
-	{ 208, { "\aH-hé, Tails !", 90, Gameplay } },
+	{ 208, { "\aH-Hé, Tails !", 90, Gameplay } },
 	{ 209, { "\aYou made it !", 60, Gameplay } },
 	{ 210, { "\aCome on !", 60, Gameplay } },
 	{ 211, { "\aTails, je prends le dessus !", 90, Gameplay } },
@@ -558,9 +558,9 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 216, { "\aTu penses pouvoir me tenir tête ?", 150, Gameplay } },
 	{ 217, { "\aJe t'ai eu, Tails !", 120, Gameplay } },
 	{ 218, { "\aQuoi ? Il a rattrapé son retard ?", 120, Gameplay } },
-	{ 219, { "\aDamn you, little fox!", 120, Gameplay } },
+	{ 219, { "\aMaudit petit renard !", 120, Gameplay } },
 	{ 220, { "\aMo... Mon petit Tails ! Attends-mooooi !", 180, Gameplay } },
-	{ 221, { "\aWha-ha-ha-ha-ha-ha-ha-ha-ha !", 120, Gameplay } },
+	{ 221, { "\aWhahahahahahahahaha !", 120, Gameplay } },
 	{ 222, { "\aAdieux, Tails !", 120, Gameplay } },
 	{ 223, { "\aJe vais détruire cette ville toute entière !", 150, Gameplay } },
 	{ 224, { "\aIl te manque 100 ans\npour pouvoir me battre !", 180, Gameplay } },
@@ -569,8 +569,8 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Final Egg
 
-	{ 1588, { "\aUrgence ! Urgence !\nÉliminer les intrus immédiatement !", 420, Gameplay } }, //intercom
-	{ 1589, { "\aUrgence ! Urgence !\nÉliminer les intrus immédiatement !", 420, Gameplay } },
+	{ 1588, { "\aUrgence ! Urgence !\nÉliminez les intrus immédiatement !", 420, Gameplay } }, //intercom
+	{ 1589, { "\aUrgence ! Urgence !\nÉliminez les intrus immédiatement !", 420, Gameplay } },
 	{ 1590, { "\aFinal Egg : cloison de niveau 2 ouverte.", 300, Gameplay } },
 	{ 1591, { "\aFinal Egg : cloison de niveau 2 ouverte.", 300, Gameplay } },
 	{ 1592, { "\aDétruis les cibles,\net tu gagneras du temps en plus.", 240, Gameplay } }, //Eggman to Gamma
@@ -594,7 +594,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 174, { "\aPrends ça !", 60, Gameplay } },
 	{ 176, { "\aEspèce de...!", 90, Gameplay } },
 	{ 177, { "\aQ-Qu'est-ce que...?!", 60, Gameplay } },
-	{ 1902, { "\aWhoo-ha-ha-ha-ha-ha-ha !\nSonic, essaye de m'atteindre !", 270, Gameplay } }, //Egg Viper
+	{ 1902, { "\aWhoohahahahahaha !\nSonic, essaye de m'atteindre !", 270, Gameplay } }, //Egg Viper
 	{ 1903, { "\aSonic, maintenant, prends ça !", 210, Gameplay } },
 
 
@@ -640,13 +640,13 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Tails
 
 	{ 1801, { "\aOuais !", 60, Gameplay } }, //Twinkle Circuit clear
-	{ 1802, { "\aHyahou !", 60, Gameplay } }, //Twinkle Circuit/Icecap jump
+	{ 1802, { "\aYahou !", 60, Gameplay } }, //Twinkle Circuit/Icecap jump
 	{ 1803, { "\aOuais !", 60, Gameplay } }, //stage clear
 	{ 1804, { "\aPfiou, c'est pas passé loin.", 120, Gameplay } }, //bad clear
 	{ 1805, { "\aJ'ai réussi, Sonic !", 90, Gameplay } }, //good clear
-	{ 1806, { "\aJe suis fort, tu sais !", 90, Gameplay } }, //boss clear
+	{ 1806, { "\aJe suis fort que tu ne le crois !", 90, Gameplay } }, //boss clear
 	{ 1807, { "\aBah, je suppose que c'est pas si mal.", 90, Gameplay } }, //normal clear
-	{ 1808, { "\aH-hé !", 60, Gameplay } }, //captured
+	{ 1808, { "\aH-Hé !", 60, Gameplay } }, //captured
 
 	//Knuckles
 
@@ -663,8 +663,8 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 1731, { "\aJ'ai réussi !", 60, Gameplay } }, //Twinkle Circuit clear
 	{ 1732, { "\aOuééé !", 60, Gameplay } }, //Twinkle Circuit jump
 	{ 1733, { "\aJ'ai réussi !", 90, Gameplay } }, //stage clear
-	{ 1734, { "\a*pfiou* C'est pas passé loin...", 120, Gameplay } }, //bad clear
-	{ 1735, { "\aQuand je fais quelque chose,\nc'est sérieusement !", 150, Gameplay } }, //boss clear
+	{ 1734, { "\aPfiou... C'est pas passé loin...", 120, Gameplay } }, //bad clear
+	{ 1735, { "\aQuand je fais quelque chose,\nje ne le fais pas à moitié !", 150, Gameplay } }, //boss clear
 	{ 1736, { "\aJe suis sauvée !", 90, Gameplay } }, //normal clear
 	{ 1737, { "\aOuéé ! Je suis la meilleure !", 150, Gameplay } }, //good clear
 	{ 1738, { "\aHé, laisse-moi partir !", 150, Gameplay } }, //captured
@@ -683,12 +683,12 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Gamma
 
 	{ 1768, { "\aConduite complétée.", 150, Gameplay } }, //Twinkle Circuit clear
-	{ 1770, { "\aMission complétée.", 150, Gameplay } }, //stage clear
-	{ 1771, { "\aE-101 Beta : sauvetage complété.", 300, Gameplay } }, //Beta mk.2 clear
-	{ 1772, { "\aCapture de la grenouille complétée.", 240, Gameplay } }, //Emerald Coast clear
-	{ 1773, { "\aE-105 Zeta : sauvetage complété.", 300, Gameplay } }, //Hot Shelter clear
-	{ 1774, { "\aE-104 Epsilon : sauvetage complété.", 300, Gameplay } }, //Red Mountain clear
-	{ 1775, { "\aE-103 Delta : sauvetage complété.", 300, Gameplay } }, //Windy Valley clear
+	{ 1770, { "\aMission accomplie.", 150, Gameplay } }, //stage clear
+	{ 1771, { "\aE-101 Beta : sauvetage accomplie.", 300, Gameplay } }, //Beta mk.2 clear
+	{ 1772, { "\aCapture de la grenouille accomplie.", 240, Gameplay } }, //Emerald Coast clear
+	{ 1773, { "\aE-105 Zeta : sauvetage accomplie.", 300, Gameplay } }, //Hot Shelter clear
+	{ 1774, { "\aE-104 Epsilon : sauvetage accomplie.", 300, Gameplay } }, //Red Mountain clear
+	{ 1775, { "\aE-103 Delta : sauvetage accomplie.", 300, Gameplay } }, //Windy Valley clear
 	{ 1777, { "\aImpossible de s'échapper.", 150, Gameplay } }, //captured
 	{ 1778, { "\aMission échouée.", 150, Gameplay } }, //died
 	{ 1786, { "\aActivité interrompue.", 150, Gameplay } }, //time over
@@ -707,7 +707,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 822, { "\aBien joué !", 20, Cutscene } },
 	{ 823, { "\aTu nous as sauvés !", 20, Cutscene } },
 	{ 824, { "\aTu es tellement cool !", 20, Cutscene } },
-	{ 825, { "\aTu as sauvé cette journée !", 20, Cutscene } },
+	{ 825, { "\aTu nous as tous sauvés !", 20, Cutscene } },
 
 	//After Emerald Coast (Gamma)
 
@@ -768,7 +768,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 1825, { "\aI made it !", 60, Gameplay } },
 	{ 1826, { "\aI got it !", 60, Gameplay } },
 	{ 1827, { "\aGood going !", 60, Gameplay } },
-	{ 1828, { "\aHey-hey-hey !", 60, Gameplay } },
+	{ 1828, { "\aHey hey hey !", 60, Gameplay } },
 	{ 1829, { "\aCome on !", 60, Gameplay } },
 	{ 1830, { "\aI win !", 60, Gameplay } },
 	{ 1831, { "\aLet's get going !", 60, Gameplay } },
