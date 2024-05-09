@@ -104,7 +104,7 @@ std::map<int, SubtitleData>* ExtraSubs_SE[]
 {
 	&ExtraSubs_SE_Japanese, //Japanese
 	&ExtraSubs_SE_English,
-	NULL, //French
+	&ExtraSubs_SE_French, //French
 	NULL, //Spanish
 	NULL, //German
 };
