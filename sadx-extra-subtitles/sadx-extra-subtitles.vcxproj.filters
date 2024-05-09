@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Include">
-      <UniqueIdentifier>{409abb5f-185a-4233-85c7-f4a46e0d6397}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\SADX Mod Loader">
-      <UniqueIdentifier>{bfd02f42-18ef-494c-b51e-19a00f5b8d98}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Include\Mod Loader Common">
-      <UniqueIdentifier>{ba0aa63e-334b-46f0-b31d-a313233f6292}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Mod">
       <UniqueIdentifier>{bdf34e03-8ac4-45d4-a758-c866295e6404}</UniqueIdentifier>
     </Filter>
@@ -18,69 +9,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Include\SADX Mod Loader\d3d8types.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\MemAccess.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\ninja.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\njdef.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXEnums.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXEnumsNew.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXFunctions.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXFunctionsNew.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXModelsNew.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXModInfo.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXModLoader.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXMotionsNew.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXStructs.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXStructsNew.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXVariables.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\SADXVariablesNew.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\ScaleInfo.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\SADX Mod Loader\WeightInfo.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\Mod Loader Common\IniFile.hpp">
-      <Filter>Include\Mod Loader Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\Mod Loader Common\TextConv.hpp">
-      <Filter>Include\Mod Loader Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Include\Mod Loader Common\Utils.hpp">
-      <Filter>Include\Mod Loader Common</Filter>
-    </ClInclude>
     <ClInclude Include="Mod\Config.h">
       <Filter>Mod</Filter>
     </ClInclude>
@@ -104,17 +32,8 @@
     </ClInclude>
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Include\SADX Mod Loader\FunctionHook.h">
-      <Filter>Include\SADX Mod Loader</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Include\Mod Loader Common\IniFile.cpp">
-      <Filter>Include\Mod Loader Common</Filter>
-    </ClCompile>
-    <ClCompile Include="Include\Mod Loader Common\TextConv.cpp">
-      <Filter>Include\Mod Loader Common</Filter>
-    </ClCompile>
     <ClCompile Include="Mod\Config.cpp">
       <Filter>Mod</Filter>
     </ClCompile>

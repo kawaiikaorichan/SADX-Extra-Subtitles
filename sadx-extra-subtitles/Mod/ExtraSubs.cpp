@@ -6,8 +6,8 @@
 #include "Languages/ExtraSubs_French.h"
 #include "Languages/ExtraSubs_French_Retranslated.h"
 #include "Languages/ExtraSubs_Japanese.h"
-#include "Include/Mod Loader Common/TextConv.hpp"
-#include "Include/SADX Mod Loader/FunctionHook.h"
+#include "TextConv.hpp"
+#include "FunctionHook.h"
 
 
 FunctionHook<int, int, void*, int, void*> PlaySound_Hook(0x423D70);

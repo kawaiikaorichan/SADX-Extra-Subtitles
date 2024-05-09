@@ -20,28 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h" />
-    <ClInclude Include="Include\Mod Loader Common\IniFile.hpp" />
-    <ClInclude Include="Include\Mod Loader Common\TextConv.hpp" />
-    <ClInclude Include="Include\Mod Loader Common\Utils.hpp" />
-    <ClInclude Include="Include\SADX Mod Loader\d3d8types.h" />
-    <ClInclude Include="Include\SADX Mod Loader\FunctionHook.h" />
-    <ClInclude Include="Include\SADX Mod Loader\MemAccess.h" />
-    <ClInclude Include="Include\SADX Mod Loader\ninja.h" />
-    <ClInclude Include="Include\SADX Mod Loader\njdef.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXEnums.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXEnumsNew.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXFunctions.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXFunctionsNew.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXModelsNew.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXModInfo.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXModLoader.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXMotionsNew.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXStructs.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXStructsNew.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXVariables.h" />
-    <ClInclude Include="Include\SADX Mod Loader\SADXVariablesNew.h" />
-    <ClInclude Include="Include\SADX Mod Loader\ScaleInfo.h" />
-    <ClInclude Include="Include\SADX Mod Loader\WeightInfo.h" />
     <ClInclude Include="Mod\Config.h" />
     <ClInclude Include="Mod\ExtraSubs.h" />
     <ClInclude Include="Mod\Languages\ExtraSubs_English.h" />
@@ -53,8 +31,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="Include\Mod Loader Common\IniFile.cpp" />
-    <ClCompile Include="Include\Mod Loader Common\TextConv.cpp" />
     <ClCompile Include="Mod\Config.cpp" />
     <ClCompile Include="Mod\ExtraSubs.cpp" />
     <ClCompile Include="Mod\Main.cpp" />
@@ -140,7 +116,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(SolutionDir)sadx-mod-loader\SADXModLoader\include;$(SolutionDir)sadx-mod-loader\mod-loader-common\ModLoaderCommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -148,6 +124,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>$(SolutionDir)bin\ModLoaderCommon.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

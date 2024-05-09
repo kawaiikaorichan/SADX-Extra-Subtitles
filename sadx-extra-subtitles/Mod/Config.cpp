@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "Config.h"
-#include "Include/Mod Loader Common/IniFile.hpp"
+#include "IniFile.hpp"
 
 
 std::string Config::SubtitlesMode;
