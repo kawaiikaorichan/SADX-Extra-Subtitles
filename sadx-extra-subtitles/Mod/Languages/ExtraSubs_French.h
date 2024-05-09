@@ -254,7 +254,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Station Square - hotel
 
-	{ 294, { "\aHé-hé ! C'est pas le moment de se reposer !", 120, Gameplay } }, //Sonic
+	{ 294, { "\aHé hé ! C'est pas le moment de se reposer !", 120, Gameplay } }, //Sonic
 	{ 295, { "\aCet hôtel est sympa !", 90, Gameplay } }, //Tails
 	{ 296, { "\aGénial, un hôtel de vacances.", 120, Gameplay } }, //Knuckles
 	{ 297, { "\aJ'adorerais passer mes vacances ici !", 120, Gameplay } }, //Amy
@@ -319,7 +319,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	{ 333, { "\aCe vaisseau en fait trop !", 90, Gameplay } }, //Sonic
 	{ 334, { "\aCe vaisseau est cool !", 90, Gameplay } }, //Tails
-	{ 335, { "\aComment ce 'machin' fait-il pour voler ?", 120, Gameplay } }, //Knuckles
+	{ 335, { "\aComment ce \"machin\" fait-il pour voler ?", 120, Gameplay } }, //Knuckles
 	{ 336, { "\aJe me demande pourquoi ce bonhomme s'est embêté\nà faire les choses comme ça.", 210, Gameplay } }, //Amy
 	{ 337, { "\aPoursuivre la mission.", 90, Gameplay } }, //Gamma
 	{ 338, { "\aHuum... Comment fait ce vaisseau pour voler ?", 150, Gameplay } }, //Big
@@ -331,7 +331,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 341, { "\aOù est la sortie ?", 60, Gameplay } }, //Knuckles
 	{ 342, { "\aMieux vaut traverser tout ça\ntranquillement si l'on ne veut pas qu'on nous entende.", 150, Gameplay } }, //Amy
 	{ 343, { "\aPoursuivre la mission.", 90, Gameplay } }, //Gamma
-	{ 344, { "\aHuum... Sorties ? Sorties ?", 150, Gameplay } }, //Big
+	{ 344, { "\aHuum... Sortie ? Sortie ?", 150, Gameplay } }, //Big
 
 
 	/* Action levels idle lines */
@@ -389,7 +389,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Sky Deck
 
-	{ 257, { "\aHo ho !\nIl vaut vraiment mieux pas que je tombe d'ici !", 180, Gameplay } }, //Sonic
+	{ 257, { "\aOh oh !\nIl vaut vraiment mieux pas que je tombe d'ici !", 180, Gameplay } }, //Sonic
 	{ 258, { "\aC'est sacrément haut !\nMes jambes en tremblent !", 180, Gameplay } }, //Tails
 	{ 259, { "\aZut ! Je déteste ce vent !", 120, Gameplay } }, //Sonic
 	{ 260, { "\aHé, qu'est-ce qui va pas avec ce vaisseau ?", 90, Gameplay } }, //Sonic
@@ -427,7 +427,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 371, { "\aHé ! Cette fois-ci, tu ne t'en sortiras pas !", 120, Gameplay } }, //Chaos 4
 	{ 372, { "\aPas mal, pas mal du tout !", 120, Gameplay } }, //Gamma
 	{ 373, { "\aOù peut bien être son point faible ?", 90, Gameplay } }, //Chaos 6
-	{ 374, { "\aTu t'es bien amusé.\nMaintenant c'est à moi !", 150, Gameplay } }, //Egg Viper
+	{ 374, { "\aTu t'es bien amusé.\nMaintenant, c'est à moi !", 150, Gameplay } }, //Egg Viper
 
 	//Tails
 
@@ -457,7 +457,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	//Super Sonic
 
 	{ 388, { "\aJe vais te montrer de quoi sont\nréellement capables les Émeraudes du Chaos !", 180, Gameplay } },
-	{ 389, { "\aDonc, voici son cœur !", 90, Gameplay } },
+	{ 389, { "\aVoilà donc son cœur !", 90, Gameplay } },
 
 
 	/* Chao Garden idle lines */
@@ -465,7 +465,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	//Sonic
 
 	{ 348, { "\aQuel endroit paisible !", 90, Gameplay } },
-	{ 349, { "\aYo ! Vous allez bien les gars ?", 90, Gameplay } },
+	{ 349, { "\aYo ! Vous allez bien, les gars ?", 90, Gameplay } },
 	{ 350, { "\aN'oubliez pas, pas de bagarres !", 120, Gameplay } },
 
 	//Tails
@@ -483,7 +483,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	//Amy
 
 	{ 357, { "\aCet endroit est si relaxant !", 150, Gameplay } },
-	{ 358, { "\a*baille* Je commence à avoir someille.", 150, Gameplay } },
+	{ 358, { "\aWaah... Je commence à avoir someille.", 150, Gameplay } },
 	{ 359, { "\aJe ne veux pas vous voir vous battre !", 120, Gameplay } },
 	{ 360, { "\aSi seulement Sonic était ici...", 120, Gameplay } },
 
@@ -524,13 +524,13 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	//Sky Chase 2 - before transformation
 
-	{ 765, { "\aHa-ha ! Tout va bien pour le moment !", 150, Gameplay } },
+	{ 765, { "\aHa ha ! Tout va bien pour le moment !", 150, Gameplay } },
 	{ 766, { "\aJ'espère que tu sais ce que tu fais.", 90, Gameplay } },
 	{ 767, { "\aBien sûr ! Mate ça !", 120, Gameplay } },
 
 	//Sky Chase 2 - transformation sequence alternate lines (they also match the regular lines in Japanese)
 
-	{ 530, { "\aTout a l'air d'aller pour le moment !", 90, Gameplay } },
+	{ 530, { "\aTout a l'air d'aller, pour le moment !", 90, Gameplay } },
 	{ 531, { "\aC'est reparti !", 60, Gameplay } },
 	{ 532, { "\aT'inquiète pas, je suis prêt.", 90, Gameplay } },
 	{ 533, { "\aMode de transformation : engagé !", 180, Gameplay } },
@@ -543,7 +543,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	//All Tails' niveaus except for Speed Highway (Sonic's voice)
 
 	{ 205, { "\aAllez, Tails !", 60, Gameplay } },
-	{ 206, { "\aHey-hey-hey !", 60, Gameplay } },
+	{ 206, { "\aHey hey hey !", 60, Gameplay } },
 	{ 207, { "\aGénial, Tails !", 90, Gameplay } },
 	{ 208, { "\aHé, Tails !", 60, Gameplay } },
 	{ 209, { "\aT'as réussi !", 60, Gameplay } },
@@ -565,16 +565,16 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 222, { "\aAdieu, Tails !", 90, Gameplay } },
 	{ 223, { "\aJ'emporterai leur ville toute entière avec moi !", 150, Gameplay } },
 	{ 224, { "\aTu ne me battras jamais !", 120, Gameplay } },
-	{ 225, { "\aJ'ai gagné ! Wha-ha-ha-ha-ha-ha-ha-ha !", 180, Gameplay } },
+	{ 225, { "\aJ'ai gagné ! Whahahahahahahaha !", 180, Gameplay } },
 	{ 226, { "\aAbandonne tout de suite, Tails !", 120, Gameplay } },
 
 	//Final Egg
 
-	{ 1588, { "\aUrgence ! Urgence !\nDisposer de tout intrus !", 300, Gameplay } }, //intercom
-	{ 1589, { "\aUrgence ! Urgence !\nDisposer de tout intrus !", 300, Gameplay } },
+	{ 1588, { "\aUrgence ! Urgence !\nDisposez de tout intrus !", 300, Gameplay } }, //intercom
+	{ 1589, { "\aUrgence ! Urgence !\nDisposez de tout intrus !", 300, Gameplay } },
 	{ 1590, { "\aFinal Egg : mur d'isolation de niveau 2 ouvert.", 330, Gameplay } },
 	{ 1591, { "\aFinal Egg : mur d'isolation de niveau 2 ouvert.", 330, Gameplay } },
-	{ 1592, { "\aDestruis les cibles,\net tu gagneras du temps.", 210, Gameplay } }, //Eggman to Gamma
+	{ 1592, { "\aDestruis les cibles\npour gagner du temps.", 210, Gameplay } }, //Eggman to Gamma
 	{ 1593, { "\aDestruis la cible Sonic.", 150, Gameplay } },
 
 
@@ -586,7 +586,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 165, { "\aOh non !", 60, Gameplay } }, //Sonic
 	{ 166, { "\aFais de ton mieux !", 90, Gameplay } }, //Knuckles
 	{ 167, { "\aJ'en ai assez !", 60, Gameplay } }, //Sonic
-	{ 168, { "\aGénial, lève les poings !", 90, Gameplay } }, //Knuckles
+	{ 168, { "\aGénial, montre-moi tes poings !", 90, Gameplay } }, //Knuckles
 	{ 169, { "\aToute résistance est futile.", 90, Gameplay } }, //Gamma
 	{ 170, { "\aOh non !", 60, Gameplay } }, //Sonic
 
@@ -594,13 +594,13 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	{ 171, { "\aTous les systèmes - puissance maximale !", 150, Gameplay } },
 	{ 172, { "\aAaah !", 60, Gameplay } },
-	{ 173, { "\aAh-ha !", 60, Gameplay } },
+	{ 173, { "\aAh ha !", 60, Gameplay } },
 	{ 174, { "\aPrends ça !", 90, Gameplay } },
 	{ 175, { "\aImpossible ! Je n'arrive pas à y croire !", 180, Gameplay } },
 	{ 176, { "\aAaah !\nIl ne va pas s'en tirer comme ça !", 180, Gameplay } },
 	{ 177, { "\aImpossible ! Je n'arrive pas à y croire !", 180, Gameplay } },
-	{ 178, { "\aHo-ho ! C'est inutile. Abandonne !", 180, Gameplay } },
-	{ 1902, { "\aWhoo-ha-ha ! Vois si tu peux\nrésister à ça, Sonic !", 210, Gameplay } }, //Egg Viper
+	{ 178, { "\aHo ho ! C'est inutile. Abandonne !", 180, Gameplay } },
+	{ 1902, { "\aWhoohaha ! Vois si tu peux\nrésister à ça, Sonic !", 210, Gameplay } }, //Egg Viper
 	{ 1903, { "\aPrends ça !", 60, Gameplay } },
 
 
@@ -670,7 +670,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 1731, { "\aGénial !", 60, Gameplay } }, //Twinkle Circuit clear
 	{ 1732, { "\aOuééé !", 60, Gameplay } }, //Twinkle Circuit jump
 	{ 1733, { "\aGénial !", 90, Gameplay } }, //niveau clear
-	{ 1734, { "\a*pfiou* C'est pas passé loin !", 150, Gameplay } }, //bad clear
+	{ 1734, { "\aPfiou... C'est pas passé loin !", 150, Gameplay } }, //bad clear
 	{ 1735, { "\aTu vois ? Je peux le faire !", 120, Gameplay } }, //boss clear
 	{ 1736, { "\aJe suis libre !", 90, Gameplay } }, //normal clear
 	{ 1737, { "\aWoah ! Je me débrouille bien !", 120, Gameplay } }, //good clear
@@ -692,11 +692,11 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	{ 1768, { "\aConduite terminée.", 90, Gameplay } }, //Twinkle Circuit clear
 	{ 1770, { "\aMission terminée.", 90, Gameplay } }, //niveau clear
-	{ 1771, { "\aE-101 Beta: sauvetage complété.", 210, Gameplay } }, //Beta mk.2 clear
-	{ 1772, { "\aCapture de la grenouille complétée.", 120, Gameplay } }, //Emerald Coast clear
-	{ 1773, { "\aE-105 Zeta: sauvetage complété.", 210, Gameplay } }, //Hot Shelter clear
-	{ 1774, { "\aE-104 Epsilon: sauvetage complété.", 210, Gameplay } }, //Red Mountain clear
-	{ 1775, { "\aE-103 Delta: sauvetage complété.", 210, Gameplay } }, //Windy Valley clear
+	{ 1771, { "\aE-101 Beta: sauvetage accompli.", 210, Gameplay } }, //Beta mk.2 clear
+	{ 1772, { "\aCapture de la grenouille accomplie.", 120, Gameplay } }, //Emerald Coast clear
+	{ 1773, { "\aE-105 Zeta: sauvetage accompli.", 210, Gameplay } }, //Hot Shelter clear
+	{ 1774, { "\aE-104 Epsilon: sauvetage accompli.", 210, Gameplay } }, //Red Mountain clear
+	{ 1775, { "\aE-103 Delta: sauvetage accompli.", 210, Gameplay } }, //Windy Valley clear
 	{ 1777, { "\aImpossible de marcher.", 90, Gameplay } }, //captured
 	{ 1778, { "\aMission échouée.", 90, Gameplay } }, //died
 	{ 1786, { "\aActivité interrompue.", 90, Gameplay } }, //time over
@@ -713,7 +713,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	{ 821, { "\aTu es le meilleur !", 20, Cutscene } },
 	{ 823, { "\aNous t'en serons reconnaissant pour toujours !", 20, Cutscene } },
-	{ 825, { "\aTu as sauvé cette journée !", 20, Cutscene } },
+	{ 825, { "\aTu nous a tous sauvés !", 20, Cutscene } },
 
 	//After Emerald Coast (Gamma)
 
@@ -743,7 +743,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 
 	{ 1984, { "\aHa ha ha ha ha ! Mauvais chemin.", 150, Gameplay } },
 	{ 1985, { "\aHa ha ha ha ! Toujours pas le bon chemin.", 120, Gameplay } },
-	{ 1986, { "\aWhohaha ! Pourquoi n'abandonnerais-tu pas ?", 150, Gameplay } },
+	{ 1986, { "\aWohaha ! Pourquoi n'abandonnerais-tu pas ?", 150, Gameplay } },
 
 	//Sky Deck (probably) unused lines
 
@@ -774,7 +774,7 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 1825, { "\aJ'ai réussi !", 60, Gameplay } },
 	{ 1826, { "\aJe l'ai eue !", 60, Gameplay } },
 	{ 1827, { "\aC'est bien !", 60, Gameplay } },
-	{ 1828, { "\aHey-hey-hey !", 60, Gameplay } },
+	{ 1828, { "\aHey hey hey !", 60, Gameplay } },
 	{ 1829, { "\aAllez !", 60, Gameplay } },
 	{ 1830, { "\aJ'ai gagné !", 60, Gameplay } },
 	{ 1831, { "\aContinuons comme ça !", 60, Gameplay } },
@@ -789,4 +789,30 @@ std::map<int, SubtitleData> ExtraSubs_French
 	{ 1713, { "\aSonic ! C'est à vous de jouer maintenant.", 150, Gameplay } },
 	{ 1714, { "\aSoyez brave, hérisson bleu.", 120, Gameplay } },
 	{ 1716, { "\aPour rester Super Sonic,\nvous aurez besoin de Rings !", 180, Gameplay } },
+};
+
+std::map<int, SubtitleData> ExtraSubs_SE_French
+{
+	// Sonic
+
+	{ SE_SV_CHARGED, { "\aPrêt !", 90, Gameplay } },
+	{ SE_SV_LDASH, { "\aOn y va !", 60, Gameplay } },
+
+	// Knuckles
+
+	{ SE_KV_DAME, { "\aNon !", 60, Gameplay } },
+	{ SE_KV_HAZURE, { "\aMince !", 60, Gameplay } },
+	{ SE_KV_KAKERA1, { "\aEncore deux !", 90, Gameplay } },
+	{ SE_KV_KAKERA2, { "\aPlus qu'une !", 90, Gameplay } },
+
+	// Gamma
+
+	{ SE_EV_PICK, { "\aPorter.", 60, Gameplay } },
+	{ SE_EV_PUT, { "\aDéposer.", 60, Gameplay } },
+	{ SE_EV_THROW, { "\aJeter.", 60, Gameplay } },
+	{ SE_EV_PUSH, { "\aPousser.", 60, Gameplay } },
+	{ SE_EV_PULL, { "\aTirer.", 60, Gameplay } },
+	{ SE_EV_TRANSFORM, { "\aChangement de mode.", 120, Gameplay } },
+	{ SE_EV_LIMIT, { "\aPlus de temps.", 120, Gameplay } },
+	{ SE_EV_ITEM1, { "\aObjet obtenu.", 120, Gameplay } },
 };
