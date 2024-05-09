@@ -790,3 +790,30 @@ std::map<int, SubtitleData> ExtraSubs_English
 	{ 1714, { "\aBe brave, blue hedgehog.", 120, Gameplay } },
 	{ 1716, { "\aIn order to stay as Super Sonic,\nyou'll need rings!", 180, Gameplay } },
 };
+
+
+std::map<int, SubtitleData> ExtraSubs_SE_English
+{
+	// Sonic
+	
+	{ SE_SV_CHARGED, { "\aReady!", 90, Gameplay } },
+	{ SE_SV_LDASH, { "\aGo!", 60, Gameplay } },
+
+	// Knuckles
+
+	{ SE_KV_DAME, { "\aNo way!", 60, Gameplay } },
+	{ SE_KV_HAZURE, { "\aDang!", 60, Gameplay } },
+	{ SE_KV_KAKERA1, { "\aTwo more!", 90, Gameplay } },
+	{ SE_KV_KAKERA2, { "\aOne more to go!", 90, Gameplay } },
+
+	// Gamma
+
+	{ SE_EV_PICK, { "\aPick up.", 60, Gameplay } },
+	{ SE_EV_PUT, { "\aPut down.", 60, Gameplay } },
+	{ SE_EV_THROW, { "\aThrow.", 60, Gameplay } },
+	{ SE_EV_PUSH, { "\aPush.", 60, Gameplay } },
+	{ SE_EV_PULL, { "\aPull.", 60, Gameplay } },
+	{ SE_EV_TRANSFORM, { "\aMode change.", 120, Gameplay } },
+	{ SE_EV_LIMIT, { "\aNo time left.", 120, Gameplay } },
+	{ SE_EV_ITEM1, { "\aObtained item.", 120, Gameplay } },
+};

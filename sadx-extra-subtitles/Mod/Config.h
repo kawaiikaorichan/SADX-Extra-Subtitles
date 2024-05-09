@@ -3,8 +3,9 @@
 class Config
 {
 public:
-	static bool DisableMenuExtraSubs;
-	static std::string SubtitlesMode;
+	static std::string SubtitlesMode;	
+	static bool DisableMenuExtraSubs;	
+	static bool DisplaySESubtitles;
 
 	static void Read(const char* modPath);
 };

@@ -24,6 +24,7 @@
     <ClInclude Include="Include\Mod Loader Common\TextConv.hpp" />
     <ClInclude Include="Include\Mod Loader Common\Utils.hpp" />
     <ClInclude Include="Include\SADX Mod Loader\d3d8types.h" />
+    <ClInclude Include="Include\SADX Mod Loader\FunctionHook.h" />
     <ClInclude Include="Include\SADX Mod Loader\MemAccess.h" />
     <ClInclude Include="Include\SADX Mod Loader\ninja.h" />
     <ClInclude Include="Include\SADX Mod Loader\njdef.h" />

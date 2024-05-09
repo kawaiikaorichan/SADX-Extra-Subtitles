@@ -3,14 +3,16 @@
 #include "Include/Mod Loader Common/IniFile.hpp"
 
 
-bool Config::DisableMenuExtraSubs;
 std::string Config::SubtitlesMode;
+bool Config::DisableMenuExtraSubs;
+bool Config::DisplaySESubtitles;
 
 
 void Config::Read(const char* modPath)
 {
 	IniFile config(std::string(modPath) + "\\config.ini");
 
-	DisableMenuExtraSubs = config.getBool("Options", "DisableMenuExtraSubs", false);
 	SubtitlesMode = config.getString("Options", "SubtitlesMode", "Auto");
+	DisableMenuExtraSubs = config.getBool("Options", "DisableMenuExtraSubs", false);
+	DisplaySESubtitles = config.getBool("Options", "DisplaySESubtitles", false);
 }

@@ -809,3 +809,29 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 1714, { L"\aあなたの勇気に掛けてみる！", 120, Gameplay } },
 	{ 1716, { L"\aスーパーソニックでいるにはリングが必要よ！\n気をつけて！", 210, Gameplay } },
 };
+
+
+std::map<int, SubtitleDataUTF16> ExtraSubs_SE_Japanese_UTF16
+{
+	// Sonic
+
+	{ SE_SV_CHARGED, { L"\aReady!", 90, Gameplay } },
+	{ SE_SV_LDASH, { L"\aGo!", 60, Gameplay } },
+
+	// Knuckles
+
+	{ SE_KV_DAME, { L"\aダメか", 60, Gameplay } },
+	{ SE_KV_KAKERA1, { L"\aあと２つ", 90, Gameplay } },
+	{ SE_KV_KAKERA2, { L"\aあと１つ", 90, Gameplay } },
+
+	// Gamma
+
+	{ SE_EV_PICK, { L"\a持ツ", 60, Gameplay } },
+	{ SE_EV_PUT, { L"\a置ク", 60, Gameplay } },
+	{ SE_EV_THROW, { L"\a投ゲル", 60, Gameplay } },
+	{ SE_EV_PUSH, { L"\a押ス", 60, Gameplay } },
+	{ SE_EV_PULL, { L"\a引ク", 60, Gameplay } },
+	{ SE_EV_TRANSFORM, { L"\aモード チェンジ", 120, Gameplay } },
+	{ SE_EV_LIMIT, { L"\a時間ガナイ", 120, Gameplay } },
+	{ SE_EV_ITEM1, { L"\aアイテム ゲット", 120, Gameplay } },
+};

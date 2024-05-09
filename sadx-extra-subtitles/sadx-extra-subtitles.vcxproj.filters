@@ -104,6 +104,9 @@
     </ClInclude>
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Include\SADX Mod Loader\FunctionHook.h">
+      <Filter>Include\SADX Mod Loader</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Include\Mod Loader Common\IniFile.cpp">

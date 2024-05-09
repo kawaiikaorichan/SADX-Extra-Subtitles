@@ -7,8 +7,10 @@
 #include "Languages/ExtraSubs_French_Retranslated.h"
 #include "Languages/ExtraSubs_Japanese.h"
 #include "Include/Mod Loader Common/TextConv.hpp"
+#include "Include/SADX Mod Loader/FunctionHook.h"
 
 
+FunctionHook<int, int, void*, int, void*> PlaySound_Hook(0x423D70);
 FunctionPointer(void, sub_40BC80, (), 0x40BC80);
 
 const int ShiftJIS = 932;
@@ -19,33 +21,47 @@ int SubtitleDuration = 0;
 int EggCannonFrameCount = 0;
 
 
-const char* UTF16toSJIS(const wchar_t* text)
-{
-	return UTF16toMBS(text, ShiftJIS);
-}
-
-
 bool UseRetranslatedSubtitles()
 {
 	return Config::SubtitlesMode == "AlwaysRetranslated" || Config::SubtitlesMode == "Auto" && VoiceLanguage == Languages_Japanese;
 }
 
 
-std::map<int, SubtitleData> ExtraSubs_Japanese;
+// UTF16 to Shift-JIS conversion
 
-void ConvertJapaneseExtraSubs()
+std::map<int, SubtitleData> ExtraSubs_Japanese;
+std::map<int, SubtitleData> ExtraSubs_SE_Japanese;
+
+const char* UTF16toSJIS(const wchar_t* text)
 {
-	for (auto& entry : ExtraSubs_Japanese_UTF16)
+	return UTF16toMBS(text, ShiftJIS);
+}
+
+std::map<int, SubtitleData> ConvertMapToSjis(const std::map<int, SubtitleDataUTF16>& utf16Subs)
+{
+	std::map<int, SubtitleData> sjisSubs;
+	
+	for (auto& entry : utf16Subs)
 	{
 		int id = entry.first;
 		const char* text = UTF16toSJIS(entry.second.Text);
 		int duration = entry.second.Duration;
 		DisplayConditions condition = entry.second.Condition;
 
-		ExtraSubs_Japanese.insert({ id, { text, duration, condition } });
+		sjisSubs.insert({ id, { text, duration, condition } });
 	}
+
+	return sjisSubs;
 }
 
+void ConvertJapaneseExtraSubs()
+{
+	ExtraSubs_Japanese = ConvertMapToSjis(ExtraSubs_Japanese_UTF16);
+	ExtraSubs_SE_Japanese = ConvertMapToSjis(ExtraSubs_SE_Japanese_UTF16);
+}
+
+
+// Subtitle data
 
 const char** SkyChase1[]
 {
@@ -84,6 +100,17 @@ std::map<int, SubtitleData>* ExtraSubs[]
 	NULL, //German
 };
 
+std::map<int, SubtitleData>* ExtraSubs_SE[]
+{
+	&ExtraSubs_SE_Japanese, //Japanese
+	&ExtraSubs_SE_English,
+	NULL, //French
+	NULL, //Spanish
+	NULL, //German
+};
+
+
+// Subtitles for normal voices
 
 void DisplayGameplaySubtitle(int id)
 {
@@ -208,10 +235,34 @@ void __cdecl PlayVoice_ExtraSub(int id)
 }
 
 
+// Sound effect subtitles
+
+void DisplaySoundEffectSubtitle(int id)
+{
+	if (ExtraSubs_SE[TextLanguage] == NULL) return;
+	if (!ExtraSubs_SE[TextLanguage]->count(id)) return;
+	
+	Buffer[0] = ExtraSubs_SE[TextLanguage]->at(id).Text;
+	DisplayHintText(Buffer, ExtraSubs_SE[TextLanguage]->at(id).Duration);
+}
+
+
+int __cdecl PlaySound_ExtraSub(int id, void* a2, int a3, void* a4)
+{
+	if (Config::DisplaySESubtitles)
+	{
+		DisplaySoundEffectSubtitle(id);
+	}
+	
+	return PlaySound_Hook.Original(id, a2, a3, a4);
+}
+
+
 void InitExtraSubs()
 {
 	ConvertJapaneseExtraSubs();
 	WriteJump((void*)0x425710, PlayVoice_ExtraSub);
+	PlaySound_Hook.Hook(PlaySound_ExtraSub);
 	WriteData((char*)0x40BC9A, (char)52); //changing the text box height for menu screens, so two lines would fit properly
 	WriteData((int*)0x40BCA1, 384); //changing the y coordinate of the text box to match menu and gameplay display methods
 }
