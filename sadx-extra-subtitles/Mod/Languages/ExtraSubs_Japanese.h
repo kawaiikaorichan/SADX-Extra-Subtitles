@@ -199,7 +199,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 
 	{ 144, { L"\aメモリーカードを選ぶんじゃ", 120, Menu } },
 	{ 145, { L"\aよし、次はファイルを選ぶんじゃ", 180, Menu } },
-	//{ 146, { L"\aワシとの戦い(?)アドベンチャーモードじゃ", 270, Menu } }, // *?* couldn't understand the middle
+	{ 146, { L"\aワシとの戦いを描いたアドベンチャーモードじゃ", 270, Menu } }, // *?*
 	{ 147, { L"\aトライアルモードで練習せい", 210, Menu } },
 	{ 148, { L"\aどいつで遊ぶんじゃ？", 120, Menu } },
 	{ 149, { L"\a憎っくきソニックの操作方法じゃ", 150, Menu } }, // *?* not sure
