@@ -2,7 +2,7 @@
 
 
 const char* SkyChase1_FrenchRetranslated[] = { "\aNe pensez pas avoir déjà gagné !", "\aEgg Cannon prêt !", "\aEt... FEU !", "\aAah, on est touchés !", "\aWoaaaaaah !" };
-const char* SkyChase2_FrenchRetranslated[] = { "\aSystem mode: change !", "\aWooooah !", "\aBien ! Nous revoilà !", NULL };
+const char* SkyChase2_FrenchRetranslated[] = { "\aSystem mode : change !", "\aWooooah !", "\aBien ! Nous revoilà !", NULL };
 
 std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 {
@@ -63,11 +63,11 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 44, { "\aHow to play with Amy.", 90, Menu } },
 	{ 45, { "\aHow to play with E-102 Gamma.", 180, Menu } },
 	{ 46, { "\aHow to play with Big.", 120, Menu } },
-	{ 47, { "\aHow to clear the game.\nTu dois le savoir, sinon tu ne pourras pas finir le jeu !", 270, Menu } },
+	{ 47, { "\aHow to clear the game. Tu dois le savoir,\nsinon tu ne pourras pas finir le jeu !", 270, Menu } },
 	{ 48, { "\aSelect a stage.", 90, Menu } },
 	{ 49, { "\aSelect a game.", 90, Menu } },
 	{ 50, { "\aOptions.\nChoisis les options que tu veux modifier.", 210, Menu } },
-	{ 51, { "\aSound Test.\nTu peux y écouter des sons cool.", 240, Menu } },
+	{ 51, { "\aSound Test.\nTu peux y écouter des sons cools.", 240, Menu } },
 	{ 52, { "\aFais bien attention à ce que ta carte mémoire\nsoit correctement positionnée.", 120, Menu } },
 	{ 53, { "\aHé ! Tu n'as pas assez d'espace\ndans ta carte mémoire.", 180, Menu } },
 
@@ -222,10 +222,10 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Station Square - station area
 
 	{ 288, { "\aCette gare est donc\nle centre de la ville ?", 180, Gameplay } }, //Sonic
-	{ 289, { "\aLes chemins de fer sont cool, eux aussi !", 90, Gameplay } }, //Tails
+	{ 289, { "\aLes chemins de fer sont cools, eux aussi !", 90, Gameplay } }, //Tails
 	{ 290, { "\aVoici donc Station Square ?", 120, Gameplay } }, //Knuckles
 	{ 291, { "\aUne ville avec vue sur\nl'océan, c'est tellement génial !", 180, Gameplay } }, //Amy
-	{ 292, { "\aJe me demande s'il y a des poissons\nici...", 210, Gameplay } }, //Big
+	{ 292, { "\aJe me demande s'il y a des poissons,\nici...", 210, Gameplay } }, //Big
 	{ 293, { "\aExploration de Station Square en cours...", 180, Gameplay } }, //Gamma
 
 	//Station Square - city hall area
@@ -254,8 +254,8 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Station Square - hotel
 
 	{ 294, { "\aHey hey ! C'est pas le moment de se reposer !", 180, Gameplay } }, //Sonic
-	{ 295, { "\aCet hôtel... Je suis un peu jaloux.", 180, Gameplay } }, //Tails
-	{ 296, { "\aHm, un hôtel de vacances ?", 120, Gameplay } }, //Knuckles
+	{ 295, { "\aCet hôtel... J'envie ceux qui s'y reposent.", 180, Gameplay } }, //Tails
+	{ 296, { "\aHm, un hôtel pour les vacanciers ?", 120, Gameplay } }, //Knuckles
 	{ 297, { "\aJ'adorerais rester à un hôtel comme celui-ci !", 210, Gameplay } }, //Amy
 	{ 298, { "\aQuelle grande maison !", 150, Gameplay } }, //Big
 	{ 299, { "\aMode combat désengagé.", 150, Gameplay } }, //Gamma
@@ -291,7 +291,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 317, { "\aCet endroit...\nIl me rend nostalgique, étrangement.", 210, Gameplay } }, //Knuckles
 	{ 318, { "\aCet endroit est génial !", 120, Gameplay } }, //Amy
 	{ 319, { "\aJe devrais peut-être rentrer...", 150, Gameplay } }, //Big
-	{ 320, { "\aAugmentation de la température.\nMode de refroidissement forcé 1: enclenché.", 360, Gameplay } }, //Gamma
+	{ 320, { "\aAugmentation de la température.\nMode de refroidissement forcé 1 : enclenché.", 360, Gameplay } }, //Gamma
 
 	//Final Egg entrance
 
@@ -344,7 +344,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Windy Valley
 
-	{ 231, { "\aJe peux entendre le vent au loin.", 120, Gameplay } }, //Sonic
+	{ 231, { "\aJe peux entendre le vent, au loin.", 120, Gameplay } }, //Sonic
 	{ 232, { "\aPrésence d'E-103 confirmée.", 240, Gameplay } }, //Gamma
 	{ 233, { "\aMieux vaut sortir d'ici rapidement !", 120, Gameplay } }, //Sonic
 	{ 234, { "\aJ'ai atterri assez haut !", 150, Gameplay } }, //Sonic
@@ -353,7 +353,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Casinopolis
 
 	{ 236, { "\aHein... Des flippers ?", 150, Gameplay } }, //Sonic
-	{ 237, { "\aQue c'est éclairé ici !", 90, Gameplay } }, //Knuckles
+	{ 237, { "\aQue c'est brillant, ici !", 90, Gameplay } }, //Knuckles
 	{ 238, { "\aQuelle horrible odeur...\nC'est un vide-ordures ?", 210, Gameplay } }, //Sonic
 
 	//Icecap
@@ -382,7 +382,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Red Mountain
 
 	{ 253, { "\aOù est passé l'Egg Carrier ?", 120, Gameplay } }, //Sonic
-	{ 254, { "\aHéé... S'en est fini de moi si je tombe dans la lave.", 270, Gameplay } }, //Sonic
+	{ 254, { "\aOuh là... S'en est fini de\nmoi si je tombe dans la lave.", 270, Gameplay } }, //Sonic
 	{ 255, { "\aPrésence d'E-104 confirmée.", 120, Gameplay } }, //Gamma
 	{ 256, { "\aSi je tombe de cette falaise, s'en est fini de moi.", 150, Gameplay } }, //Knuckles
 
@@ -420,10 +420,10 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Sonic
 
-	{ 368, { "\aC'est quoi le problème de ce type ?\nIl n'est pas invincible quand même ?", 150, Gameplay } }, //Chaos 0
-	{ 369, { "\aPeu importe ce que tu essayes, ça ne sert à rien !", 120, Gameplay } }, //Egg Hornet
+	{ 368, { "\aC'est quoi le problème de ce type ?\nIl n'est pas invincible, quand même ?", 150, Gameplay } }, //Chaos 0
+	{ 369, { "\aJe sais pas ce que t'as en tête,\nmais ça ne sert à rien !", 120, Gameplay } }, //Egg Hornet
 	{ 370, { "\aKnuckles ? Qu'est-ce qui ne va pas ?", 120, Gameplay } }, //vs Knuckles
-	{ 371, { "\aHé ! Cette fois-ci tu ne t'échapperas pas !", 120, Gameplay } }, //Chaos 4
+	{ 371, { "\aHé ! Cette fois-ci, tu ne t'échapperas pas !", 120, Gameplay } }, //Chaos 4
 	{ 372, { "\aNot so bad ! Pas mal du tout !", 180, Gameplay } }, //Gamma
 	{ 373, { "\aOù est son point faible ?", 90, Gameplay } }, //Chaos 6
 	{ 374, { "\aFini de jouer, Eggman !", 120, Gameplay } }, //Egg Viper
@@ -464,12 +464,12 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Sonic
 
 	{ 348, { "\aQuel endroit tranquille...", 150, Gameplay } },
-	{ 349, { "\aYo ! Vous allez bien les gars ?", 120, Gameplay } },
+	{ 349, { "\aYo ! Vous allez bien, les gars ?", 120, Gameplay } },
 	{ 350, { "\aHey guys ! Pas de bagarre !", 150, Gameplay } },
 
 	//Tails
 
-	{ 351, { "\aJe me sens soulagé quand je viens ici.", 120, Gameplay } },
+	{ 351, { "\aJe me sens détendu quand je viens ici.", 120, Gameplay } },
 	{ 352, { "\aComment vous allez, les gars ?", 90, Gameplay } },
 	{ 353, { "\aJe vous aime, moi aussi !", 120, Gameplay } },
 
@@ -481,7 +481,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Amy
 
-	{ 357, { "\aAaah... C'est si tranquille ici...", 270, Gameplay } },
+	{ 357, { "\aAaah... C'est si tranquille, ici...", 270, Gameplay } },
 	{ 358, { "\a*baille* Je commence à avoir sommeil...", 360, Gameplay } },
 	{ 359, { "\aLes gars ! Ne vous battez pas s'il vous plaît !", 150, Gameplay } },
 	{ 360, { "\aSi seulement Sonic était là avec moi...", 180, Gameplay } },
@@ -573,7 +573,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 1589, { "\aUrgence ! Urgence !\nÉliminez les intrus immédiatement !", 420, Gameplay } },
 	{ 1590, { "\aFinal Egg : cloison de niveau 2 ouverte.", 300, Gameplay } },
 	{ 1591, { "\aFinal Egg : cloison de niveau 2 ouverte.", 300, Gameplay } },
-	{ 1592, { "\aDétruis les cibles,\net tu gagneras du temps en plus.", 240, Gameplay } }, //Eggman to Gamma
+	{ 1592, { "\aDétruis les cibles\net tu gagneras du temps en plus.", 240, Gameplay } }, //Eggman to Gamma
 	{ 1593, { "\aDétruis la cible Sonic !", 210, Gameplay } },
 
 
@@ -613,7 +613,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	//Twinkle Park entrance
 
-	{ 1575, { "\aWelcome to Twinkle Park!", 90, Gameplay } },
+	{ 1575, { "\aWelcome to Twinkle Park !", 90, Gameplay } },
 
 	//Mystic Ruins
 
@@ -632,7 +632,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 1840, { "\aYes !", 60, Gameplay } }, //stage clear
 	{ 1841, { "\aHey, pump it up !", 120, Gameplay } }, //bad clear
 	{ 1842, { "\a*sifflement* It's sweet !", 180, Gameplay } }, //good clear
-	{ 1843, { "\aHey guy !\nJe jouerai avec toi un autre jour !", 180, Gameplay } }, //boss clear
+	{ 1843, { "\aHey guy !\nJe m'amuserai avec toi une autre fois !", 180, Gameplay } }, //boss clear
 	{ 1844, { "\aYeah ! It's okay !", 120, Gameplay } }, //normal clear
 	{ 1845, { "\aL-Laisse-moi partir !", 60, Gameplay } }, //captured
 	{ 1847, { "\aNo !", 60, Gameplay } }, //died with no rings
@@ -644,7 +644,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 1803, { "\aOuais !", 60, Gameplay } }, //stage clear
 	{ 1804, { "\aPfiou, c'est pas passé loin.", 120, Gameplay } }, //bad clear
 	{ 1805, { "\aJ'ai réussi, Sonic !", 90, Gameplay } }, //good clear
-	{ 1806, { "\aJe suis fort que tu ne le crois !", 90, Gameplay } }, //boss clear
+	{ 1806, { "\aJe suis plus fort que tu ne le crois !", 90, Gameplay } }, //boss clear
 	{ 1807, { "\aBah, je suppose que c'est pas si mal.", 90, Gameplay } }, //normal clear
 	{ 1808, { "\aH-Hé !", 60, Gameplay } }, //captured
 
@@ -661,19 +661,19 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Amy
 
 	{ 1731, { "\aJ'ai réussi !", 60, Gameplay } }, //Twinkle Circuit clear
-	{ 1732, { "\aOuééé !", 60, Gameplay } }, //Twinkle Circuit jump
+	{ 1732, { "\aYoupi !", 60, Gameplay } }, //Twinkle Circuit jump
 	{ 1733, { "\aJ'ai réussi !", 90, Gameplay } }, //stage clear
 	{ 1734, { "\aPfiou... C'est pas passé loin...", 120, Gameplay } }, //bad clear
 	{ 1735, { "\aQuand je fais quelque chose,\nje ne le fais pas à moitié !", 150, Gameplay } }, //boss clear
 	{ 1736, { "\aJe suis sauvée !", 90, Gameplay } }, //normal clear
-	{ 1737, { "\aOuéé ! Je suis la meilleure !", 150, Gameplay } }, //good clear
+	{ 1737, { "\aTrop bien ! Je suis la meilleure !", 150, Gameplay } }, //good clear
 	{ 1738, { "\aHé, laisse-moi partir !", 150, Gameplay } }, //captured
 
 	//Big
 
 	{ 1334, { "\aOoooh, il est reparti...", 240, Gameplay } }, //stage clear (Twinkle Park, Icecap)
 	{ 1747, { "\aFroggy !", 90, Gameplay } }, //stage clear (Emerald Coast, Hot Shelter)	
-	{ 1748, { "\aJe ferai de mon mieux la prochaine fois.", 150, Gameplay } }, //bad clear
+	{ 1748, { "\aJe ferai de mon mieux, la prochaine fois.", 150, Gameplay } }, //bad clear
 	{ 1749, { "\aGrosse prise ! Grosse prise !", 90, Gameplay } }, //good clear
 	{ 1750, { "\aTu vas bien, Froggy ?", 150, Gameplay } }, //boss clear
 	{ 1751, { "\aC'était une bonne pêche !", 150, Gameplay } }, //normal clear
@@ -684,11 +684,11 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 
 	{ 1768, { "\aConduite complétée.", 150, Gameplay } }, //Twinkle Circuit clear
 	{ 1770, { "\aMission accomplie.", 150, Gameplay } }, //stage clear
-	{ 1771, { "\aE-101 Beta : sauvetage accomplie.", 300, Gameplay } }, //Beta mk.2 clear
+	{ 1771, { "\aE-101 Beta : sauvetage accompli.", 300, Gameplay } }, //Beta mk.2 clear
 	{ 1772, { "\aCapture de la grenouille accomplie.", 240, Gameplay } }, //Emerald Coast clear
-	{ 1773, { "\aE-105 Zeta : sauvetage accomplie.", 300, Gameplay } }, //Hot Shelter clear
-	{ 1774, { "\aE-104 Epsilon : sauvetage accomplie.", 300, Gameplay } }, //Red Mountain clear
-	{ 1775, { "\aE-103 Delta : sauvetage accomplie.", 300, Gameplay } }, //Windy Valley clear
+	{ 1773, { "\aE-105 Zeta : sauvetage accompli.", 300, Gameplay } }, //Hot Shelter clear
+	{ 1774, { "\aE-104 Epsilon : sauvetage accompli.", 300, Gameplay } }, //Red Mountain clear
+	{ 1775, { "\aE-103 Delta : sauvetage accompli.", 300, Gameplay } }, //Windy Valley clear
 	{ 1777, { "\aImpossible de s'échapper.", 150, Gameplay } }, //captured
 	{ 1778, { "\aMission échouée.", 150, Gameplay } }, //died
 	{ 1786, { "\aActivité interrompue.", 150, Gameplay } }, //time over
@@ -736,7 +736,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	//Final Egg (Amy) Eggman's taunts
 
 	{ 1984, { "\aHa ha ha ha ha ! Mauvais chemin !", 150, Gameplay } },
-	{ 1985, { "\aHa ha ha ha ! Toujours le mauvais chemin !", 180, Gameplay } },
+	{ 1985, { "\aHa ha ha ha ! Encore raté !", 180, Gameplay } },
 	{ 1986, { "\aHa ha ha ha ha ha ! Abandonne !", 210, Gameplay } },
 
 	//Sky Deck (probably) unused lines
@@ -744,7 +744,7 @@ std::map<int, SubtitleData> ExtraSubs_FrenchRetranslated
 	{ 1704, { "\aUrgence ! Urgence !\nÉliminer les intrus immédiatement !", 420, Gameplay } }, //intercom
 	{ 1705, { "\aUrgence ! Urgence !\nÉliminer les intrus immédiatement !", 420, Gameplay } },
 	{ 1727, { "\aVents violents en approche.\nVents violents en approche.", 150, Gameplay } },
-	{ 1728, { "\aAlerte de vents violents annulée.", 120, Gameplay } },
+	{ 1728, { "\aAlerte de vents violents terminée.", 120, Gameplay } },
 	{ 1723, { "\aDescente dans les nuages.\nRalentissez le vaisseau.", 360, Gameplay } }, //Eggman orders
 	{ 1724, { "\aDescente dans les nuages.\nRalentissez le vaisseau.", 360, Gameplay } },
 	{ 1725, { "\aMontez. Vitesse maximale !", 300, Gameplay } },
