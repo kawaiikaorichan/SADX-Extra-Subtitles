@@ -32,6 +32,9 @@
     </ClInclude>
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="ExtraSubs_Spanish.h">
+      <Filter>Mod\Languages</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Mod\Config.cpp">
@@ -45,5 +48,8 @@
     </ClCompile>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ExtraSubs_Spanish_Retranslated.cpp">
+      <Filter>Mod\Languages</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

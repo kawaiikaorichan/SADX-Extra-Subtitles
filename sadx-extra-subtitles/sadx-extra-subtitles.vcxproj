@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ExtraSubs_Spanish.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Mod\Config.h" />
     <ClInclude Include="Mod\ExtraSubs.h" />
@@ -31,6 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="ExtraSubs_Spanish_Retranslated.cpp" />
     <ClCompile Include="Mod\Config.cpp" />
     <ClCompile Include="Mod\ExtraSubs.cpp" />
     <ClCompile Include="Mod\Main.cpp" />

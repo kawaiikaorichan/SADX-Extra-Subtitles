@@ -6,6 +6,8 @@
 #include "Languages/ExtraSubs_French.h"
 #include "Languages/ExtraSubs_French_Retranslated.h"
 #include "Languages/ExtraSubs_Japanese.h"
+#include "Languages/ExtraSubs_Spanish.h"
+#include "Languages/ExtraSubs_Spanish_Retranslated.h"
 #include "TextConv.hpp"
 #include "FunctionHook.h"
 
@@ -68,7 +70,7 @@ const char** SkyChase1[]
 	SkyChase1_Japanese,
 	SkyChase1_English,
 	SkyChase1_French,
-	NULL, //Spanish
+	SkyChase1_Spanish,
 	NULL, //German
 };
 
@@ -77,7 +79,7 @@ const char** SkyChase2[]
 	SkyChase2_Japanese,
 	SkyChase2_English,
 	SkyChase2_French,
-	NULL, //Spanish
+	SkyChase2_Spanish,
 	NULL, //German
 };
 
@@ -86,7 +88,7 @@ const char** WelcomeToTwinkleParkCutscene[]
 	WelcomeToTwinklePark_Japanese,
 	WelcomeToTwinklePark_English,
 	WelcomeToTwinklePark_French,
-	NULL, //Spanish
+	WelcomeToTwinklePark_Spanish,
 	NULL, //German
 };
 
@@ -96,7 +98,7 @@ std::map<int, SubtitleData>* ExtraSubs[]
 	&ExtraSubs_Japanese,
 	&ExtraSubs_English,
 	&ExtraSubs_French,
-	NULL, //Spanish
+	&ExtraSubs_Spanish,
 	NULL, //German
 };
 
@@ -105,7 +107,7 @@ std::map<int, SubtitleData>* ExtraSubs_SE[]
 	&ExtraSubs_SE_Japanese,
 	&ExtraSubs_SE_English,
 	&ExtraSubs_SE_French,
-	NULL, //Spanish
+	&ExtraSubs_SE_Spanish,
 	NULL, //German
 };
 
@@ -167,6 +169,11 @@ void SetSubtitlesMode() //this will be a single option for multiple languages
 		ExtraSubs[Languages_French] = &ExtraSubs_FrenchRetranslated;
 		SkyChase1[Languages_French] = SkyChase1_FrenchRetranslated;
 		SkyChase2[Languages_French] = SkyChase2_FrenchRetranslated;
+
+		ExtraSubs[Languages_Spanish] = &ExtraSubs_SpanishRetranslated;
+		ExtraSubs_SE[Languages_Spanish] = &ExtraSubs_SE_SpanishRetranslated;
+		SkyChase1[Languages_Spanish] = SkyChase1_SpanishRetranslated;
+		SkyChase2[Languages_Spanish] = SkyChase2_SpanishRetranslated;
 	}
 	else
 	{
@@ -177,6 +184,11 @@ void SetSubtitlesMode() //this will be a single option for multiple languages
 		ExtraSubs[Languages_French] = &ExtraSubs_French;
 		SkyChase1[Languages_French] = SkyChase1_French;
 		SkyChase2[Languages_French] = SkyChase2_French;
+
+		ExtraSubs[Languages_Spanish] = &ExtraSubs_Spanish;
+		ExtraSubs_SE[Languages_Spanish] = &ExtraSubs_SE_Spanish;
+		SkyChase1[Languages_Spanish] = SkyChase1_Spanish;
+		SkyChase2[Languages_Spanish] = SkyChase2_Spanish;
 	}
 }
 
