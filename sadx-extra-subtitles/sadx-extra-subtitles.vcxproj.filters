@@ -48,7 +48,7 @@
     </ClCompile>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="ExtraSubs_Spanish_Retranslated.cpp">
+    <ClCompile Include="ExtraSubs_Spanish_Retranslated.h">
       <Filter>Mod\Languages</Filter>
     </ClCompile>
   </ItemGroup>

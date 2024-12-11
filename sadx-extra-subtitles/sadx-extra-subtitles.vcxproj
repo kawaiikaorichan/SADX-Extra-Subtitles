@@ -32,7 +32,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="ExtraSubs_Spanish_Retranslated.cpp" />
+    <ClCompile Include="ExtraSubs_Spanish_Retranslated.h" />
     <ClCompile Include="Mod\Config.cpp" />
     <ClCompile Include="Mod\ExtraSubs.cpp" />
     <ClCompile Include="Mod\Main.cpp" />
