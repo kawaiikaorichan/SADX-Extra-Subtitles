@@ -687,7 +687,7 @@ std::map<int, SubtitleDataUTF16> ExtraSubs_Japanese_UTF16
 	{ 1733, { L"\aやったぁ！", 90, Gameplay } }, //stage clear
 	{ 1734, { L"\aふう、危なかった…", 120, Gameplay } }, //bad clear
 	{ 1735, { L"\aあたしだってやる時はやるんだから！", 150, Gameplay } }, //boss clear - *?* not sure
-	{ 1736, { L"\a脱して成功！", 90, Gameplay } }, //normal clear
+	{ 1736, { L"\a脱出成功！", 90, Gameplay } }, //normal clear
 	{ 1737, { L"\aやぁぁ、あたしって最高！", 150, Gameplay } }, //good clear
 	{ 1738, { L"\aいやぁ、離して！", 150, Gameplay } }, //captured
 
