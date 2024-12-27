@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ExtraSubs_Spanish_Retranslated.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Mod\Config.h" />
     <ClInclude Include="Mod\ExtraSubs.h" />
@@ -30,6 +29,7 @@
     <ClInclude Include="Mod\Languages\ExtraSubs_Japanese.h" />
     <ClInclude Include="Mod\Languages\ExtraSubs_Spanish.h" />
     <ClInclude Include="Mod\Languages\ExtraSubs_Spanish_Dub.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_Spanish_Retranslated.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
