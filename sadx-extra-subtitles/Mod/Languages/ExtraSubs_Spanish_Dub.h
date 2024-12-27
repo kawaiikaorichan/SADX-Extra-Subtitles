@@ -1,11 +1,11 @@
 #pragma once
 
 
-const char* SkyChase1_SpanishRetranslated[] = { "\a¡Jum! ¡No crean que ganaron!", "\a¡Egg Cannon listo!", "\a¡Fuego!", "\a¡Ah, nos dieron!", "\a¡Ah...!" };
-const char* SkyChase2_SpanishRetranslated[] = { "\a¡Cambio de forma!", "\a¡Guau...!", "\a¡Bien, aquí vamos!", NULL };
-const char* WelcomeToTwinklePark_SpanishRetranslated[] = { "\a¡Bienvenidos a Twinkle Park!", NULL };
+const char* SkyChase1_SpanishDub[] = { "\a¡Jum! ¡No crean que ganaron!", "\a¡Egg Cannon listo!", "\a¡Fuego!", "\a¡Ah, nos dieron!", "\a¡Ah...!" };
+const char* SkyChase2_SpanishDub[] = { "\a¡Cambio de forma!", "\a¡Guau...!", "\a¡Bien, aquí vamos!", NULL };
+const char* WelcomeToTwinklePark_SpanishDub[] = { "\a¡Bienvenidos a Parque Destello!", NULL };
 
-std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
+std::map<int, SubtitleData> ExtraSubs_SpanishDub
 {
 	/* Menu voices */
 
@@ -224,10 +224,10 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	{ 288, { "\aLa estación debe ser\nel centro de la ciudad.", 120, Gameplay } }, //Sonic
 	{ 289, { "\a¡Los trenes también son geniales!", 90, Gameplay } }, //Tails
-	{ 290, { "\aAsí que esta es Station Square", 120, Gameplay } }, //Knuckles
+	{ 290, { "\aAsí que esta es Ciudad Estación", 120, Gameplay } }, //Knuckles
 	{ 291, { "\aEs lindo tener cerca el mar.", 120, Gameplay } }, //Amy
 	{ 292, { "\aMe pregunta si hay paces aquí.", 150, Gameplay } }, //Big
-	{ 293, { "\aExplorando Station Square...", 120, Gameplay } }, //Gamma
+	{ 293, { "\aExplorando Ciudad Estación...", 120, Gameplay } }, //Gamma
 
 	//Station Square - city hall area
 
@@ -249,12 +249,12 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 	{ 301, { "\a¡Parece que no puedo entrar al parque!", 150, Gameplay } }, //Tails
 	{ 302, { "\a¿Qué es este lugar?", 90, Gameplay } }, //Knuckles
 	{ 303, { "\a¡Qué emoción!", 90, Gameplay } }, //Amy
-	{ 304, { "\a¿Twinkle Park?", 90, Gameplay } }, //Big
+	{ 304, { "\a¿Parque Destello?", 90, Gameplay } }, //Big
 	{ 305, { "\aCarritos chocones detectados.", 150, Gameplay } }, //Gamma
 
 	//Station Square - hotel
 
-	{ 294, { "\a¡Hey,hey! ¡No hay tiempo de descansar!", 120, Gameplay } }, //Sonic
+	{ 294, { "\a¡Hey, hey! ¡No hay tiempo de descansar!", 120, Gameplay } }, //Sonic
 	{ 295, { "\aUn hotel, ¿eh? Me siento celoso.", 90, Gameplay } }, //Tails
 	{ 296, { "\aBien, un hotel cinco estrellas.", 120, Gameplay } }, //Knuckles
 	{ 297, { "\a¡Me gustaría hospedarme aquí!", 120, Gameplay } }, //Amy
@@ -268,22 +268,22 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 	{ 282, { "\a¡Qué ciudad tan bulliciosa!", 90, Gameplay } }, //Knuckles
 	{ 283, { "\a¡Esta ciudad nunca cambia!", 120, Gameplay } }, //Amy
 	{ 284, { "\a¿Dónde estará Froggy?", 120, Gameplay } }, //Big
-	{ 285, { "\aTren a Mystic Ruins detectado.", 150, Gameplay } }, //Gamma
+	{ 285, { "\aTren a Ruinas Místicas detectado.", 150, Gameplay } }, //Gamma
 
 	//Mystic Ruins - station area
 
 	{ 306, { "\aEste lugar se ha vuelto muy solitario.", 90, Gameplay } }, //Sonic
 	{ 307, { "\aEste lugar cambió mucho\ndesde que construyeron la estación.", 180, Gameplay } }, //Tails
-	{ 308, { "\aDebo restaurar la Master Emerald.", 180, Gameplay } }, //Knuckles
+	{ 308, { "\aDebo restaurar la Esmeralda Maestra.", 180, Gameplay } }, //Knuckles
 	{ 309, { "\aNo me gustan los lugares así.", 150, Gameplay } }, //Amy
 	{ 310, { "\a¿Dónde estará Froggy?", 180, Gameplay } }, //Big
-	{ 311, { "\aExplorando Mystic Ruins...", 120, Gameplay } }, //Gamma
+	{ 311, { "\aExplorando Ruinas Místicas...", 120, Gameplay } }, //Gamma
 
 	//Mystic Ruins - Angel Island
 
-	{ 312, { "\a¡Así que esta es Angel Island!", 120, Gameplay } }, //Sonic
+	{ 312, { "\a¡Así que esta es Isla Ángel!", 120, Gameplay } }, //Sonic
 	{ 313, { "\aDebo devolver rápido esta\nisla al cielo.", 150, Gameplay } }, //Knuckles
-	{ 314, { "\aLlegando a Angel Island.", 120, Gameplay } }, //Gamma
+	{ 314, { "\aLlegando a Isla Ángel.", 120, Gameplay } }, //Gamma
 
 	//Mystic Ruins - jungle
 
@@ -296,8 +296,8 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	//Final Egg entrance
 
-	{ 321, { "\a¡Debe ser la base de Eggman!", 120, Gameplay } }, //Sonic
-	{ 322, { "\a¡Parece ser la base de Eggman!", 120, Gameplay } }, //Tails
+	{ 321, { "\a¡Debe ser la base de Robotnik!", 120, Gameplay } }, //Sonic
+	{ 322, { "\a¡Parece ser la base de Robotnik!", 120, Gameplay } }, //Tails
 	{ 323, { "\a¡Esta es su base!", 120, Gameplay } }, //Knuckles, wtf?
 	{ 324, { "\aDaré lo mejor, Sonic.", 120, Gameplay } }, //Amy
 	{ 325, { "\aLugar en donde fui creado.", 120, Gameplay } }, //Gamma
@@ -326,7 +326,7 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	//Egg Carrier - inside
 
-	{ 339, { "\a¡Una nave tan rara como Eggman!", 120, Gameplay } }, //Sonic
+	{ 339, { "\a¡Una nave tan rara como Robotnik!", 120, Gameplay } }, //Sonic
 	{ 340, { "\a¡Un día intentaré hacer una nave así!", 120, Gameplay } }, //Tails
 	{ 341, { "\a¿Dónde está la salida?", 60, Gameplay } }, //Knuckles
 	{ 342, { "\a¡Vuela quedito\npara que no nos oigan!", 150, Gameplay } }, //Amy
@@ -375,10 +375,10 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 	//Speed Highway
 
 	{ 248, { "\a¡Hora de la velocidad supersónica!", 120, Gameplay } }, //Sonic
-	{ 249, { "\a¿Y Eggman", 60, Gameplay } }, //Tails
+	{ 249, { "\a¿Y Robotnik?", 60, Gameplay } }, //Tails
 	{ 250, { "\a¡Hey, no tengo tiempo que perder!", 120, Gameplay } }, //Sonic
 	{ 251, { "\a¡Los carros son tan lentos\nque no parecen moverse!", 150, Gameplay } }, //Sonic
-	{ 252, { "\aLas piezas de la Master Emerald\ndeben estar en esta ciudad.", 210, Gameplay } }, //Knuckles
+	{ 252, { "\aLas piezas de la Esmeralda Maestra\ndeben estar en esta ciudad.", 210, Gameplay } }, //Knuckles
 
 	//Red Mountain
 
@@ -399,19 +399,19 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	{ 262, { "\aEste lugar es muy sereno.", 90, Gameplay } }, //Sonic
 	{ 263, { "\a¿Dónde estoy?", 60, Gameplay } }, //Sonic
-	{ 264, { "\aLas esmeraldas deben estar en esta habitación.", 150, Gameplay } }, //Knuckles
+	{ 264, { "\aLas Esmeraldas deben estar en esta habitación.", 150, Gameplay } }, //Knuckles
 
 	//Final Egg
 
 	{ 265, { "\aAgh... este lugar apesta a aceite.", 90, Gameplay } }, //Sonic
 	{ 266, { "\aAnímate, Pajarito, aquí vamos.", 120, Gameplay } }, //Amy
 	{ 267, { "\a¿Hasta dónde llega esto?", 60, Gameplay } }, //Sonic
-	{ 268, { "\a¡Solo espera, Eggman!", 90, Gameplay } }, //Sonic
+	{ 268, { "\a¡Solo espera, Robotnik!", 90, Gameplay } }, //Sonic
 	{ 269, { "\aErizo azul: enemigo..", 120, Gameplay } }, //Gamma
 
 	//Hot Shelter
 
-	{ 270, { "\a¡Eggman es de lo peor!", 90, Gameplay } }, //Amy
+	{ 270, { "\a¡Robotnik es de lo peor!", 90, Gameplay } }, //Amy
 	{ 271, { "\a¿Froggy estará bien?", 120, Gameplay } }, //Big
 	{ 272, { "\a¡Dios, ¿ahora por dónde voy?!", 120, Gameplay } }, //Amy
 	{ 273, { "\aE-105 detectado.", 120, Gameplay } }, //Gamma
@@ -440,23 +440,23 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 	//Knuckles
 
 	{ 380, { "\aMuy bien, ¡ya me harté!", 120, Gameplay } }, //Chaos 2
-	{ 381, { "\aEntrega la esmeralda.", 60, Gameplay } }, //vs Sonic
+	{ 381, { "\aEntrega la Esmeralda.", 60, Gameplay } }, //vs Sonic
 	{ 382, { "\aEste nunca aprende.", 90, Gameplay } }, //Chaos 4
 	{ 383, { "\a¡Esta vez te aniquilaré!", 120, Gameplay } }, //Chaos 6
 
 	//Amy
 
-	{ 384, { "\a¡Pagarás\n¡ por lo que hiciste!", 150, Gameplay } }, //Zero
+	{ 384, { "\a¡Pagarás\n¡por lo que hiciste!", 150, Gameplay } }, //Zero
 
 	//Gamma
 
-	{ 385, { "\a Blanco confirmado.", 90, Gameplay } }, //E-101
+	{ 385, { "\aBlanco confirmado.", 90, Gameplay } }, //E-101
 	{ 386, { "\aErizo azul: enemigo.", 120, Gameplay } }, //vs Sonic
 	{ 387, { "\aBeta.", 60, Gameplay } }, //E-101 mk.2
 
 	//Super Sonic
 
-	{ 388, { "\a¡Te mostraré el verdadero poder de las Chaos Emeralds!", 180, Gameplay } },
+	{ 388, { "\a¡Te mostraré el verdadero poder de las Esmeraldas Caos!", 180, Gameplay } },
 	{ 389, { "\aBien, ese es su núcleo.", 90, Gameplay } },
 
 
@@ -476,7 +476,7 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	//Knuckles
 
-	{ 354, { "\aParece que no hay esmeraldas aquí.", 120, Gameplay } },
+	{ 354, { "\aParece que no hay Esmeraldas aquí.", 120, Gameplay } },
 	{ 355, { "\aSiento que he visto\na estos chicos antes.", 180, Gameplay } },
 	{ 356, { "\a¿Por qué este lugar.\nme recuerda a casa?", 270, Gameplay } },
 
@@ -552,7 +552,7 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 	{ 212, { "\a¡De prisa, Tails!", 60, Gameplay } },
 	{ 213, { "\a¡Urra!", 60, Gameplay } },
 	{ 214, { "\a¡Lo hice!", 60, Gameplay } },
-	{ 215, { "\a¡Tails, no tienes rings!\n¡Cuidado!", 150, Gameplay } },
+	{ 215, { "\a¡Tails, no tienes anillos!\n¡Cuidado!", 150, Gameplay } },
 
 	//Speed Highway (Eggman's voice)
 
@@ -610,8 +610,8 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	{ 1567, { "\aAborden el tren\ny esperen su partida.", 210, Gameplay } },
 	{ 1568, { "\aAborden el tren\n¿y esperen su partida.", 210, Gameplay } },
-	{ 1569, { "\aEl tren a Mystic Ruins\npartirá pronto.", 270, Gameplay } },
-	{ 1570, { "\aEl tren a Mystic Ruins\npartirá pronto.", 270, Gameplay } },
+	{ 1569, { "\aEl tren a Ruinas Místicas\npartirá pronto.", 270, Gameplay } },
+	{ 1570, { "\aEl tren a Ruinas Místicas\npartirá pronto.", 270, Gameplay } },
 	{ 1571, { "\aPronto llegará un tren.\nApártense de las vías.", 270, Gameplay } },
 	{ 1572, { "\aPronto llegará un tren.\nApártense de las vías.", 270, Gameplay } },
 	{ 1573, { "\aPor el momento no hay trenes en servicio.", 180, Gameplay } },
@@ -619,12 +619,12 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	//Twinkle Park entrance
 
-	{ 1575, { "\a¡Bienvenidos a Twinkle Park!", 90, Gameplay } },
+	{ 1575, { "\a¡Bienvenidos a Parque Destello!", 90, Gameplay } },
 
 	//Mystic Ruins
 
 	{ 1654, { "\aSe pide a los pasajeros\nque esperen al bordo del tren.", 210, Gameplay } },
-	{ 1655, { "\aEl tren a Station Square\npartirá pronto.", 270, Gameplay } },
+	{ 1655, { "\aEl tren a Ciudad Estación\npartirá pronto.", 270, Gameplay } },
 	{ 1656, { "\aPronto llegará un tren.\nApártense de las vías.", 300, Gameplay } },
 	{ 1657, { "\aPor el momento no hay trenes en servicio.", 210, Gameplay } },
 
@@ -636,7 +636,7 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 	{ 1838, { "\a¡Sí!", 60, Gameplay } }, //Twinkle Circuit clear
 	{ 1839, { "\a¡Ya-jú! !", 60, Gameplay } }, //Twinkle Circuit jump
 	{ 1840, { "\aSí.", 60, Gameplay } }, //stage clear
-	{ 1841, { "\a¡Oye, debes hacerlo mejor!", 90, Gameplay } }, //bad clear
+	{ 1841, { "\a¡Oye, métele galleta!", 90, Gameplay } }, //bad clear
 	{ 1842, { "\a*silba* ¡Bien!", 90, Gameplay } }, //good clear
 	{ 1843, { "\a¡Oye, juguemos de nuevo pronto!", 120, Gameplay } }, //boss clear
 	{ 1844, { "\a¡Sí, nada mal!", 60, Gameplay } }, //normal clear
@@ -713,7 +713,7 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	{ 821, { "\a¡Eres el mejor!", 20, Cutscene } },
 	{ 823, { "\a¡Salvaste el día! ", 20, Cutscene } },
-	{ 825, { "\a¡Lo hizo, lo hizo!", 20, Cutscene } },
+	{ 825, { "\a¡Lo hizo,lo hizo!", 20, Cutscene } },
 
 	//After Emerald Coast (Gamma)
 
@@ -788,11 +788,11 @@ std::map<int, SubtitleData> ExtraSubs_SpanishRetranslated
 
 	{ 1713, { "\a¡Ahora depende de ti, Sonic!", 150, Gameplay } },
 	{ 1714, { "\aSé valiente, erizo azul.", 120, Gameplay } },
-	{ 1716, { "\a¡Para permanecer como Super Sonic,\nnecesitarás rings!", 180, Gameplay } },
+	{ 1716, { "\a¡Para permanecer como Super Sonic,\nnecesitarás anillos!", 180, Gameplay } },
 };
 
 
-std::map<int, SubtitleData> ExtraSubs_SE_SpanishRetranslated
+std::map<int, SubtitleData> ExtraSubs_SE_SpanishDub
 {
 	// Sonic
 
@@ -801,19 +801,19 @@ std::map<int, SubtitleData> ExtraSubs_SE_SpanishRetranslated
 
 	// Knuckles
 
-	{ SE_KV_DAME, { "\a¡No se puede!", 60, Gameplay } },
-	{ SE_KV_HAZURE, { "\a¡Rayos!", 60, Gameplay } },
+	{ SE_KV_DAME, { "\a¡No puede ser!", 60, Gameplay } },
+	{ SE_KV_HAZURE, { "\a¡Chucha!", 60, Gameplay } },
 	{ SE_KV_KAKERA1, { "\a¡Dos más!", 90, Gameplay } },
-	{ SE_KV_KAKERA2, { "\a¡Una más y termino!", 90, Gameplay } },
+	{ SE_KV_KAKERA2, { "\a¡Uno más para llevar!", 90, Gameplay } },
 
 	// Gamma
 
 	{ SE_EV_PICK, { "\aRecoger.", 60, Gameplay } },
 	{ SE_EV_PUT, { "\aSoltar.", 60, Gameplay } },
-	{ SE_EV_THROW, { "\aArrojar.", 60, Gameplay } },
+	{ SE_EV_THROW, { "\aTirar.", 60, Gameplay } },
 	{ SE_EV_PUSH, { "\aEmpujar.", 60, Gameplay } },
 	{ SE_EV_PULL, { "\aJalar.", 60, Gameplay } },
 	{ SE_EV_TRANSFORM, { "\aCambio de modo.", 120, Gameplay } },
-	{ SE_EV_LIMIT, { "\aSin tiempo restante.", 120, Gameplay } },
-	{ SE_EV_ITEM1, { "\aObjeto obtenido.", 120, Gameplay } },
+	{ SE_EV_LIMIT, { "\aNo hay tiempo.", 120, Gameplay } },
+	{ SE_EV_ITEM1, { "\aObtener ítem.", 120, Gameplay } },
 };

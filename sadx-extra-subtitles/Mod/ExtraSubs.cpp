@@ -8,6 +8,7 @@
 #include "Languages/ExtraSubs_Japanese.h"
 #include "Languages/ExtraSubs_Spanish.h"
 #include "Languages/ExtraSubs_Spanish_Retranslated.h"
+#include "Languages/ExtraSubs_Spanish_Dub.h"
 #include "TextConv.hpp"
 #include "FunctionHook.h"
 
@@ -21,6 +22,8 @@ const char* TextBuffer = NULL;
 int SubtitleDisplayFrameCount = 0;
 int SubtitleDuration = 0;
 int EggCannonFrameCount = 0;
+
+HMODULE SpanishDub = GetModuleHandle(L"sadx spanish translation");
 
 
 bool UseRetranslatedSubtitles()
@@ -170,10 +173,20 @@ void SetSubtitlesMode() //this will be a single option for multiple languages
 		SkyChase1[Languages_French] = SkyChase1_FrenchRetranslated;
 		SkyChase2[Languages_French] = SkyChase2_FrenchRetranslated;
 
-		ExtraSubs[Languages_Spanish] = &ExtraSubs_SpanishRetranslated;
-		ExtraSubs_SE[Languages_Spanish] = &ExtraSubs_SE_SpanishRetranslated;
-		SkyChase1[Languages_Spanish] = SkyChase1_SpanishRetranslated;
-		SkyChase2[Languages_Spanish] = SkyChase2_SpanishRetranslated;
+		if (SpanishDub)
+		{
+			ExtraSubs[Languages_Spanish] = &ExtraSubs_SpanishDub;
+			ExtraSubs_SE[Languages_Spanish] = &ExtraSubs_SE_SpanishDub;
+			SkyChase1[Languages_Spanish] = SkyChase1_SpanishDub;
+			SkyChase2[Languages_Spanish] = SkyChase2_SpanishDub;
+		}
+		else
+		{
+			ExtraSubs[Languages_Spanish] = &ExtraSubs_SpanishRetranslated;
+			ExtraSubs_SE[Languages_Spanish] = &ExtraSubs_SE_SpanishRetranslated;
+			SkyChase1[Languages_Spanish] = SkyChase1_SpanishRetranslated;
+			SkyChase2[Languages_Spanish] = SkyChase2_SpanishRetranslated;
+		}
 	}
 	else
 	{

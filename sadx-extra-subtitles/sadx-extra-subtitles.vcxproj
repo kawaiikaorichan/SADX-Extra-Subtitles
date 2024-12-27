@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ExtraSubs_Spanish.h" />
+    <ClInclude Include="ExtraSubs_Spanish_Retranslated.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Mod\Config.h" />
     <ClInclude Include="Mod\ExtraSubs.h" />
@@ -28,11 +28,12 @@
     <ClInclude Include="Mod\Languages\ExtraSubs_French.h" />
     <ClInclude Include="Mod\Languages\ExtraSubs_French_Retranslated.h" />
     <ClInclude Include="Mod\Languages\ExtraSubs_Japanese.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_Spanish.h" />
+    <ClInclude Include="Mod\Languages\ExtraSubs_Spanish_Dub.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="ExtraSubs_Spanish_Retranslated.h" />
     <ClCompile Include="Mod\Config.cpp" />
     <ClCompile Include="Mod\ExtraSubs.cpp" />
     <ClCompile Include="Mod\Main.cpp" />
@@ -100,11 +101,13 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)sadx-mod-loader\libmodutils;$(SolutionDir)sadx-mod-loader\mod-loader-common\ModLoaderCommon;$(SolutionDir)sadx-mod-loader\SADXModLoader\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableUAC>false</EnableUAC>
+      <AdditionalDependencies>$(SolutionDir)sadx-mod-loader\mod-loader-common\bin\ModLoaderCommon.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
